@@ -14,7 +14,7 @@
     "start": "next start -p $PORT",
     "type-check": "tsc",
     "heroku-postbuild": "npm run build",
-    "commit": "git pull; git add . ; git-cz; git push",
+    "commit": "git-cz",
     "lint:next": "next lint",
     "lint": "eslint . --ext .ts,.tsx",
     "lint:fix": "npm run lint -- --fix",
