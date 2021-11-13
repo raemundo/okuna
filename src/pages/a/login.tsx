@@ -1,3 +1,3 @@
-import OKHomePage from "~/screens/home/OKHomePage";
+import OKLoginPage from "~/screens/auth/pages/OKLoginPage";
 
-export default OKHomePage;
+export default OKLoginPage;
