@@ -1,3 +1,3 @@
-import Home from "~/screens/Home";
+import OKHomePage from "~/screens/home/OKHomePage";
 
-export default Home;
+export default OKHomePage;
