@@ -1,15 +1,13 @@
 import React from "react";
-import { View, Text } from "react-native";
-import { t } from "~/lib/tailwind"
+import OKHeader from "./components/header/OkHeader";
 
-function Home() {
+function OKHomePage({ children }) {
     return (
-        <View>
-            <Text style={t`text-2xl font-bold text-center text-red-500 md:text-yellow-500 lg:text-green-500`}>
-                ¡Hola, Mundo!
-            </Text>
-        </View>
+        <>
+            <OKHeader />
+            {children}
+        </>
     )
 }
 
-export default Home;
+export default OKHomePage;
