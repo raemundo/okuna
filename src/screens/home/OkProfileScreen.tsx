@@ -77,7 +77,7 @@ const ProfileScreen = () => {
             </View>
 
             {/* After bio content */}
-            <View style={t`h-full mx-auto w-9/12 mt-2`}>
+            <View style={t`h-full mt-2`}>
                 <View style={t`flex-row flex-wrap`}>
                     <View style={t`w-full md:w-2/6 px-2`}>
                         <View style={t`bg-white rounded-lg p-3 text-sm text-gray-600 shadow border border-gray-300`}>
