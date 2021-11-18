@@ -1,9 +1,10 @@
 import React from 'react'
 import { View, Text, ImageBackground, Pressable } from 'react-native'
 import { t } from "~/lib/tailwind";
-import FontAwesomeIcon from "@/src/components/FontAwesomeIcon";
+import FontAwesomeIcon from "~/components/FontAwesomeIcon";
 import { faEllipsisV, faCoffee } from "@fortawesome/free-solid-svg-icons";
-export default function OkDesktopCommunityProfile() {
+
+export default function OkDesktopCommunityProfileHeader() {
     return (
         <View
             style={t`w-full shadow border border-gray-300 bg-white rounded-lg`}
@@ -32,7 +33,7 @@ export default function OkDesktopCommunityProfile() {
                     </View>
                     <View style={t`hidden md:flex mx-2`}>
                         <Text>Addicts</Text>
-                        <Text style={t`font-bold	`}>210</Text>
+                        <Text style={t`font-bold`}>210</Text>
                     </View>
                 </View>
 
