@@ -1,8 +1,10 @@
 import React from 'react'
 import { View, Text } from 'react-native'
 import tw, { t } from "~/lib/tailwind";
-import FontAwesomeIcon from "@/src/components/FontAwesomeIcon";
-import { faGlobeAmericas, faSmile, faBook } from "@fortawesome/free-solid-svg-icons";
+
+import OkCommunityProfileInfoButtons from '~/screens/home/pages/community/components/shared/OkCommunityProfileInfoButtons';
+import OkCommunityProfileCategories from '~/screens/home/pages/community/components/shared/OkCommunityProfileCategories';
+import OkCommunityProfileVisibility from '~/screens/home/pages/community/components/shared/OkCommunityProfileVisibility';
 
 export default function OkDesktopCommunityProfileSidebar() {
     return (
@@ -21,17 +23,9 @@ export default function OkDesktopCommunityProfileSidebar() {
 
                 <View style={t`flex-row border-t border-gray-400 mt-5`}>
                 </View>
-                <View style={t`flex-row mt-5`}>
-                    <FontAwesomeIcon icon={faGlobeAmericas} style={tw`px-2 text-gray-500`} /> <Text style={t`text-gray-500`}>Public</Text>
-                </View>
-                <View style={t`flex-row`}>
-                    <Text style={t`bg-yellow-500 py-1 px-2 mx-1 rounded-xl`}>food</Text>
-                    <Text style={t`bg-yellow-500 py-1 px-2 mx-1 rounded-xl`}>food</Text>
-                </View>
-                <View style={t`flex-row border-t border-gray-400 mt-5`}>
-                    <View style={t`flex-row m-2 p-1 bg-gray-200 rounded-lg`}><FontAwesomeIcon style={tw`text-gray-600`} icon={faSmile} /> <Text style={t`text-gray-600`}>Staff</Text></View>
-                    <View style={t`flex-row m-2 p-1 bg-gray-200 rounded-lg`}><FontAwesomeIcon style={tw`text-gray-600`} icon={faBook} />  <Text style={t`text-gray-600`}>Rules</Text></View>
-                </View>
+                <OkCommunityProfileVisibility />
+                <OkCommunityProfileCategories />
+                <OkCommunityProfileInfoButtons />
             </View>
         </View>
 
