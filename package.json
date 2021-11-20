@@ -57,11 +57,15 @@
     "@commitlint/config-conventional": "^13.1.0",
     "@expo/next-adapter": "^3.0.6",
     "@graphql-codegen/cli": "2.1.1",
+    "@styled-jsx/plugin-sass": "^4.0.1",
     "@types/react": "~17.0.21",
     "@types/react-dom": "~17.0.9",
     "@types/react-native": "~0.64.12",
     "autoprefixer": "^9",
     "babel-plugin-module-resolver": "^4.1.0",
+    "buefy": "^0.9.13",
+    "bulma": "^0.9.3",
+    "bulma-helpers": "^0.4.2",
     "commitizen": "^4.2.4",
     "cz-conventional-changelog": "^3.3.0",
     "file-loader": "^6.2.0",
@@ -70,6 +74,7 @@
     "next-compose-plugins": "^2.2.1",
     "next-transpile-modules": "^8.0.0",
     "postcss": "^7",
+    "sass": "^1.43.4",
     "url-loader": "^4.1.1"
   },
   "husky": {
