@@ -1,42 +1,82 @@
 // import OKLoginPage from "~/screens/auth/pages/OKLoginPage";
-import { View, Text, ImageBackground, Image } from "react-native";
-import { t } from "~/lib/tailwind";
-const image = {
-  uri: "/emojis.png",
-};
+import OkAuthPage from "~/screens/auth/OkAuthPage";
+
 
 function LoginPage() {
+  const t = (txt) => txt;
   return (
-    <View style={t`h-screen w-screen flex-row`}>
-      <View style={t`w-6/12  p-32 text-center  bg-red-100`}>
-        <Text style={t` leading-none pb-8 font-semibold  text-left text-5xl `}>
-          Social networking, done good.
-        </Text>
-   
-        <View style={t`flex-grow pb-8 items-center text-left `}>
-          <Image
-            style={t`w-6 h-6 mr-2 items-center inline-flex justify-center`}
-            source={{ uri: "/home-login.svg" }}
-          />
-          <Text style={t`leading-none pl-4 font-semibold text-left text-2xl `}>
-            Meet new friends and discover interests by joining or hosting
-            communities.
-          </Text>
-        </View>
-      </View>
-      <View style={t`flex-1 w-screen`}>
-        <ImageBackground
-          source={image}
-          style={t`w-full  h-6/12`}
-          imageStyle={{
-            resizeMode: "center",
-          }}
-        >
-          <View style={t`items-center`}>fdf</View>
-        </ImageBackground>
-      </View>
-    </View>
-  );
+    <div className="app">
+      <OkAuthPage>
+        <div className="columns is-centered is-vcentered has-height-100-percent is-paddingless ok-has-background-primary-highlight has-background-emojis is-marginless">
+          <div className="column is-narrow">
+            <div className="card is-relative has-overflow-hidden ok-has-background-primary">
+              <div className="card-header ok-has-border-bottom-primary-highlight">
+                <div className="card-header-title is-flex align-items-center justify-center has-padding-20">
+                  {/* <ok-logo></ok-logo> */}
+                </div>
+              </div>
+              <div className="card-content">
+                <form>
+                  <div className="field">
+                    <label className="label has-text-left ok-has-text-primary-invert-80">
+                      {t('global.keywords.username')}
+                    </label>
+                    <div className="control">
+                      <input type="text" placeholder="e.g. johntravolta" className="input is-rounded is-medium ok-input"
+                        required
+                        id="username" v-model="username" />
+                    </div>
+                    <p className="help is-danger has-text-left" v-if="!$v.username.required  $v.username.$dirty">
+                      {t('common:global.errors.username.required')} {t('common:name')} {t('common:x.y')} {t('common:age')}
+                    </p>
+                  </div>
+                  <div className="field">
+                    <label className="label has-text-left ok-has-text-primary-invert-80">Password</label>
+                    <div className="control">
+                      <input type="password" placeholder="*******" className="input is-rounded is-medium ok-input" required
+                        id="password"
+                        v-model="password" />
+                    </div>
+                    <p className="help is-danger has-text-left" v-if="!$v.password.required  $v.password.$dirty">
+                      {t('global.errors.password.required')}
+                    </p>
+                    <p className="help is-danger has-text-left" v-if="!$v.password.minLength  $v.password.$dirty">
+                      {t('global.errors.password.min_length')}
+                    </p>
+                    <p className="help is-danger has-text-left" v-if="!$v.password.maxLength  $v.password.$dirty">
+                      {t('global.errors.password.max_length')}
+                    </p>
+                  </div>
+                  <div className="field">
+                    {/* <nuxt-link :to="'/a/request-password-reset'" className="ok-has-text-primary-invert-60">
+              {t('global.snippets.forgot_password')}
+          </nuxt-link> */}
+                  </div>
+                  <div className="field has-padding-top-20">
+                    <button className="button is-success is-rounded is-fullwidth is-medium has-background-rainbow has-text-weight-bold"
+                      type="submit">
+                      {t('global.snippets.login')}
+                    </button>
+                  </div>
+                </form>              </div>
+              <div className="card-footer ok-has-border-top-primary-highlight">
+                <div className="card-footer-item ok-has-text-primary-invert-60">
+                  <span>
+                    {/* {$t('global.snippets.dont_have_an_account')} */}
+                  </span>
+                  <div className="has-text-underline has-padding-left-5">{t('common:name')}  {t(`language:Arabic`)}</div>
+                  {/* <nuxt-link : to="localePath({path: '/a/register'})"
+    className ="has-text-underline has-padding-left-5">
+    {$t('global.snippets.sign_up')}
+    </nuxt-link> */}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div >
+      </OkAuthPage >
+    </div >
+  )
 }
 
 export default LoginPage;
