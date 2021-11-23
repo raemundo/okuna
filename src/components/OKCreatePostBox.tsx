@@ -2,7 +2,7 @@ import React from 'react'
 import { View, Text, Image, Pressable } from 'react-native'
 import FontAwesomeIcon from "~/components/FontAwesomeIcon";
 import { faImages, faSmile, } from "@fortawesome/free-solid-svg-icons";
-import tw, { t } from "~/lib/tailwind"
+import twi, { t } from "~/lib/tailwind"
 import { faYoutube } from '@fortawesome/free-brands-svg-icons';
 const OKCreatePostBox = () => {
     return (
@@ -20,19 +20,19 @@ const OKCreatePostBox = () => {
             </View>
             <View style={t`flex-row space-x-3 text-sm`}>
                 <Pressable style={(state) => [t`flex-1 flex-row items-center h-8 focus:outline-none focus:bg-gray-200 justify-center rounded-md`, state.hovered && t`bg-gray-100`]}>
-                    <FontAwesomeIcon icon={faYoutube} style={tw`text-red-500`} />
+                    <FontAwesomeIcon icon={faYoutube} style={twi`text-red-500`} />
                     <View>
                         <Text style={t`font-semibold text-gray-500`}>Create Video</Text>
                     </View>
                 </Pressable>
                 <Pressable style={(state) => [t`flex-1 flex-row items-center h-8 focus:outline-none focus:bg-gray-200 justify-center rounded-md`, state.hovered && t`bg-gray-100`]}>
-                    <FontAwesomeIcon icon={faImages} style={tw`text-green-500`} />
+                    <FontAwesomeIcon icon={faImages} style={twi`text-green-500`} />
                     <View>
                         <Text style={t`font-semibold text-gray-500`}>Photos/Video</Text>
                     </View>
                 </Pressable>
                 <Pressable style={(state) => [t`flex-1 flex-row items-center h-8 focus:outline-none focus:bg-gray-200 justify-center  rounded-md`, state.hovered && t`bg-gray-100`]}>
-                    <FontAwesomeIcon icon={faSmile} style={tw`text-yellow-500`} />
+                    <FontAwesomeIcon icon={faSmile} style={twi`text-yellow-500`} />
                     <View>
                         <Text style={t`font-semibold text-gray-500`}>Feeling/Activity</Text>
                     </View>

@@ -10,7 +10,7 @@ export const t = (strings: TemplateStringsArray, ...values: (string | number)[])
     strings.forEach((string, i) => {
         str += string + (values[i] || ``);
     });
-    return StyleSheet.create({ x: tw`${str}` }).x;
+    return StyleSheet.create({ x: twi`${str}` }).x;
 };
 
 t.style = (...exprs) => StyleSheet.create({ x: tw.style(...exprs) }).x;
