@@ -3,9 +3,9 @@ import { useState, useEffect } from "react";
 import { StyleSheet, useColorScheme, useWindowDimensions } from 'react-native';
 
 // create the customized version...
-const tw = create(require(`../../tailwind.config.js`)); // <- your path may differ
+const twi = create(require(`../../tailwind.config.js`)); // <- your path may differ
 
-export const t = (strings: TemplateStringsArray, ...values: (string | number)[]) => {
+export const tw = (strings: TemplateStringsArray, ...values: (string | number)[]) => {
     let str = ``;
     strings.forEach((string, i) => {
         str += string + (values[i] || ``);
@@ -13,9 +13,9 @@ export const t = (strings: TemplateStringsArray, ...values: (string | number)[])
     return StyleSheet.create({ x: twi`${str}` }).x;
 };
 
-t.style = (...exprs) => StyleSheet.create({ x: tw.style(...exprs) }).x;
+tw.style = (...exprs) => StyleSheet.create({ x: twi.style(...exprs) }).x;
 // ... and then this becomes the main function your app uses
-export default tw;
+export default twi;
 
 
 
