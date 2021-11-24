@@ -1,3 +1,3 @@
-import OKHomePage from "~/screens/OKHomePage";
+import OKHomePage from "~/layouts/OKHomePage";
 
 export default OKHomePage;

@@ -1,5 +1,5 @@
 // import OKLoginPage from "~/screens/pages/OKLoginPage";
-import OkAuthPage from "~/screens/OkAuthPage";
+import OkAuthPage from "~/layouts/OkAuthPage";
 
 
 function LoginPage() {
