@@ -2,9 +2,9 @@ import React from 'react'
 import { View, Text } from 'react-native'
 import twi, { tw } from "~/lib/tailwind";
 
-import OkCommunityProfileInfoButtons from '~/screens/home/pages/community/components/shared/OkCommunityProfileInfoButtons';
-import OkCommunityProfileCategories from '~/screens/home/pages/community/components/shared/OkCommunityProfileCategories';
-import OkCommunityProfileVisibility from '~/screens/home/pages/community/components/shared/OkCommunityProfileVisibility';
+import OkCommunityProfileInfoButtons from '~/screens/pages/community/components/shared/OkCommunityProfileInfoButtons';
+import OkCommunityProfileCategories from '~/screens/pages/community/components/shared/OkCommunityProfileCategories';
+import OkCommunityProfileVisibility from '~/screens/pages/community/components/shared/OkCommunityProfileVisibility';
 
 export default function OkDesktopCommunityProfileSidebar() {
     return (

@@ -6,7 +6,7 @@ import { createStackNavigator } from "@react-navigation/stack";
 import tw, { useDeviceContext } from "~/lib/tailwind";
 
 import "~/lib/i18n";
-import Home from "~/screens/Home";
+import Home from "~/screens";
 
 const Tab = createStackNavigator();
 // const Tab = createBottomTabNavigator();

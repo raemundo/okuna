@@ -1,5 +1,5 @@
-import OKHomePage from "~/screens/home/OKHomePage";
-import OkCommunityProfile from "~/screens/home/pages/community/OkCommunityProfile";
+import OKHomePage from "~/screens/OKHomePage";
+import OkCommunityProfile from "~/screens/pages/community/OkCommunityProfile";
 
 export default function CommunityName() {
     return (
