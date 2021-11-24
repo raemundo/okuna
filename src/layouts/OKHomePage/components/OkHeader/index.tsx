@@ -4,7 +4,7 @@ import FontAwesomeIcon from "~/components/FontAwesomeIcon";
 import { faBell, faCircleNotch, faGlobeAmericas, faHome, faPlus, faSortDown, faUsers } from "@fortawesome/free-solid-svg-icons";
 import Link from "next-rn/link";
 import twi, { tw } from "~/lib/tailwind"
-import OkLogo from "~/components/okuna-logo/OkLogo"
+import OkLogo from "~/components/OkLogo"
 import OkHeaderSearchBar from './components/OkHeaderSearchBar';
 import { faFacebookMessenger } from '@fortawesome/free-brands-svg-icons';
 export default function Header() {
