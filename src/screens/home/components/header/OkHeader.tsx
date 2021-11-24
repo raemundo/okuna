@@ -10,7 +10,7 @@ import { faFacebookMessenger } from '@fortawesome/free-brands-svg-icons';
 export default function Header() {
     return (
         <View style={tw`flex-row justify-between items-center border-b-2 border-gray-100  h-12`}>
-            <View style={tw`flex-row justify-startw`}>
+            <View style={tw`flex-row justify-start`}>
                 <OkLogo />
                 <OkHeaderSearchBar />
             </View>
