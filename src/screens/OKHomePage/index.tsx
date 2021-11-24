@@ -1,5 +1,5 @@
 import React from "react";
-import OKHeader from "./components/header/OkHeader";
+import OKHeader from "./components/OkHeader";
 import {
     View,
 } from "react-native";
