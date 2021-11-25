@@ -1,11 +1,11 @@
 import React from 'react'
-import { View, Text } from 'react-native'
+import { Pressable } from 'react-native'
 import twi, { tw } from "~/lib/tailwind";
 
-export default function OkEmojiReactionButton() {
+export default function OkEmojiReactionButton({item}) {
     return (
-        <View>
-            <Text></Text>
-        </View>
+        <Pressable style={tw`bg-gray-200 py-1 px-2 mx-1 rounded-xl`}>
+            {item.emoji} {item.count}
+        </Pressable>
     )
 }
