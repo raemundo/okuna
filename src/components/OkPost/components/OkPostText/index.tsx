@@ -1,11 +1,9 @@
 import React from 'react'
-import { View, Text } from 'react-native'
+import { Text } from 'react-native'
 import twi, { tw } from "~/lib/tailwind";
 
 export default function OkPostText() {
     return (
-        <View>
-            <Text></Text>
-        </View>
+        <Text style={tw`text-gray-500 px-3`}>This is caption</Text>
     )
 }

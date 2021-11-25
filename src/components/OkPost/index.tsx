@@ -1,7 +1,16 @@
 import { View, Text, Image, Pressable } from 'react-native'
 import FontAwesomeIcon from "~/components/FontAwesomeIcon";
-import { faComment, faEllipsisV, faHeart, faSmile, faSurprise, faThumbsUp, } from "@fortawesome/free-solid-svg-icons";
+import { faComment, faEllipsisV, faSmile } from "@fortawesome/free-solid-svg-icons";
 import twi, { tw } from "~/lib/tailwind"
+
+import OkPostHeader from "~/components/OkPost/components/OkPostHeader";
+import OkPostText from "~/components/OkPost/components/OkPostText";
+import OkPostMedia from "~/components/OkPost/components/OkPostMedia";
+import OkPostLinkPreview from "~/components/OkPost/components/OkPostLinkPreview";
+import OkPostReactions from "~/components/OkPost/components/OkPostReactions";
+import OkPostCommentCounts from "~/components/OkPost/components/OkPostCommentCounts";
+import OkPostActions from "~/components/OkPost/components/OkPostActions";
+import OkPostCircles from '~/components/OkPost/components/OkPostCircles';
 
 export default function OKPost() {
     return (
@@ -28,27 +37,10 @@ export default function OKPost() {
                     </Pressable>
                 </View>
             </View>
-            <View style={tw`text-gray-500 px-3`}>This is caption</View>
-            <View style={tw`w-full h-76 max-h-80`}>
-                <Image
-                    source={{ uri: 'https://picsum.photos/1080/1920' }}
-                    style={tw`w-full h-76 max-h-80`}
-                />
-            </View>
+            <OkPostText />
+            <OkPostMedia />
             <View style={tw`w-full flex flex-col p-2 px-4`}>
-                <View style={tw`flex-row items-center justify-between px-3 pb-2 mb-2`}>
-                    <View style={tw`flex-row items-center text-gray-400 text-sm`}>
-                        <Pressable style={tw`bg-gray-200 py-1 px-2 mx-1 rounded-xl text-red-500`}>
-                            <FontAwesomeIcon icon={faHeart} />
-                        </Pressable>
-                        <Pressable style={tw`bg-gray-200 py-1 px-2 mx-1 rounded-xl text-blue-500`}>
-                            <FontAwesomeIcon icon={faThumbsUp} />
-                        </Pressable>
-                        <Pressable style={tw`bg-gray-200 py-1 px-2 mx-1 rounded-xl text-yellow-500`}>
-                            <FontAwesomeIcon icon={faSurprise} />
-                        </Pressable>
-                    </View>
-                </View>
+                <OkPostReactions />
                 <View style={tw`flex-row justify-around text-gray-400`}>
                     <Pressable style={tw`flex-row justify-center items-center bg-gray-200 rounded-full p-2 w-5/12`}>
                         <FontAwesomeIcon icon={faSmile} />
