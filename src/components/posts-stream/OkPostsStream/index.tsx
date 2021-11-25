@@ -2,10 +2,17 @@ import React from 'react'
 import { View, Text } from 'react-native'
 import twi, { tw } from "~/lib/tailwind";
 
-export default function OkPostsStream() {
+import OkHttpList from '~/components/OkHttpList';
+import OkPostSkeleton from '~/components/skeletons/post/OkPostSkeleton';
+import OkPost from "~/components/OkPost";
+
+export default function OkPostsStream({ leading }) {
     return (
-        <View>
-            <Text></Text>
-        </View>
+        <>
+            {leading}
+            <OkHttpList>
+                <OkPost />
+            </OkHttpList>
+        </>
     )
 }
