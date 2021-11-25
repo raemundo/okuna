@@ -1,11 +1,9 @@
 import React from 'react'
-import { View, Text } from 'react-native'
+import { Text } from 'react-native'
 import twi, { tw } from "~/lib/tailwind";
 
-export default function OkSmartTextHighlightedItem() {
+export default function OkSmartTextHighlightedItem({ children }) {
     return (
-        <View>
-            <Text></Text>
-        </View>
+        <Text>{children}</Text>
     )
 }
