@@ -1,11 +1,15 @@
 import React from 'react'
 import { View, Text } from 'react-native'
 import twi, { tw } from "~/lib/tailwind";
+import FontAwesomeIcon from "~/components/FontAwesomeIcon";
+import { faCoffee } from "@fortawesome/free-solid-svg-icons";
 
 export default function OkHashtagAvatar() {
     return (
-        <View>
-            <Text></Text>
-        </View>
+        <FontAwesomeIcon
+            icon={faCoffee}
+            size="2x"
+            style={{ paddingRight: 10 }}
+        />
     )
 }

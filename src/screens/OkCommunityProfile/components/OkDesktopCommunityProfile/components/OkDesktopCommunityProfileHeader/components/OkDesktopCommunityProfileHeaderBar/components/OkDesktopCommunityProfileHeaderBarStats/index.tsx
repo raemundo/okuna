@@ -4,8 +4,15 @@ import twi, { tw } from "~/lib/tailwind";
 
 export default function OkDesktopCommunityProfileHeaderBarStats() {
     return (
-        <View>
-            <Text></Text>
-        </View>
+        <>
+            <View style={tw`hidden md:flex mx-2`}>
+                <Text>Addicts</Text>
+                <Text style={tw`font-bold`}>210</Text>
+            </View>
+            <View style={tw`hidden md:flex mx-2`}>
+                <Text>Addicts</Text>
+                <Text style={tw`font-bold`}>210</Text>
+            </View>
+        </>
     )
 }
