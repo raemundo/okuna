@@ -1,6 +1,6 @@
 import React from 'react'
 import { View, Text } from 'react-native'
-import FontAwesomeIcon from "@/src/components/FontAwesomeIcon";
+import FontAwesomeIcon from "~/component-lib/FontAwesomeIcon";
 import { faGlobeAmericas } from "@fortawesome/free-solid-svg-icons";
 import twi, { tw } from "~/lib/tailwind";
 export default function OkCommunityProfileVisibility() {

@@ -1,6 +1,6 @@
 import React from 'react'
 import { TextInput, Pressable } from 'react-native'
-import FontAwesomeIcon from '@/src/components/FontAwesomeIcon';
+import FontAwesomeIcon from '~/component-lib/FontAwesomeIcon';
 import { faSearch } from '@fortawesome/free-solid-svg-icons';
 import twi, { tw } from '~/lib/tailwind'
 
