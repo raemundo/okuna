@@ -6,6 +6,7 @@ import twi, { tw } from "~/lib/tailwind";
 import OkFooter from "~/components/layout/OkFooter";
 import OkModals from '~/layouts/OkHomePage/components/OkModals';
 import bg from "./assets/emojis-bg.png"
+import Twemoji from "~/component-lib/Twemoji"
 // import ensureHasNoStoredAuthToken from '~/middleware/ensure-has-no-stored-auth-token';
 const t = (txt) => txt;
 
@@ -17,28 +18,34 @@ export default function OkAuthPage({ children }) {
                     {t('pages.auth.title')}
                 </Text>
                 <Text>
-                    <Text>🏡</Text>
-                    {t('pages.auth.usps.friends')}
+                    <Twemoji>
+                        🏡 {t('pages.auth.usps.friends')}
+                    </Twemoji>
                 </Text>
 
                 <Text>
-                    <Text>🙈️</Text>
-                    {t('pages.auth.usps.privacy')}
+                    <Twemoji>
+                        🙈️ {t('pages.auth.usps.privacy')}
+                    </Twemoji>
                 </Text>
 
                 <Text>
-                    <Text>😍</Text>
-                    {t('pages.auth.usps.revenue')}
+                    <Twemoji>
+                        😍
+                        {t('pages.auth.usps.revenue')}
+                    </Twemoji>
                 </Text>
 
                 <Text>
-                    <Text>🛀</Text>
-                    {t('pages.auth.usps.mental_health')}
+                    <Twemoji>
+                        🛀 {t('pages.auth.usps.mental_health')}
+                    </Twemoji>
                 </Text>
 
                 <Text>
-                    <Text>🌎</Text>
-                    {t('pages.auth.usps.planet')}
+                    <Twemoji>
+                        🌎 {t('pages.auth.usps.planet')}
+                    </Twemoji>
                 </Text>
 
                 <OkFooter />
