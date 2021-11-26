@@ -7,7 +7,14 @@ import tw, { useDeviceContext } from "~/lib/tailwind";
 function MyApp({ Component, pageProps }) {
   useDeviceContext(tw);
   const router = useRouter();
-  return <Component {...pageProps} key={router.asPath} />;
+  return (
+  <>
+  <Component {...pageProps} key={router.asPath} />
+  <style jsx global> {`
+   body {  font-family: 'Nunito Sans'}
+   `}</style>
+  </>
+  );
 }
 
 export default MyApp;
