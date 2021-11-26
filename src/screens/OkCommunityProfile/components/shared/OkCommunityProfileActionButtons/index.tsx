@@ -1,7 +1,7 @@
 import React from 'react'
 import { View, Pressable } from 'react-native'
 import twi, { tw } from "~/lib/tailwind";
-import FontAwesomeIcon from "~/components/FontAwesomeIcon";
+import FontAwesomeIcon from "~/component-lib/FontAwesomeIcon";
 import { faEllipsisV } from "@fortawesome/free-solid-svg-icons";
 
 export default function OkCommunityProfileActionButtons() {

@@ -1,6 +1,6 @@
 import React from 'react'
 import { View, Text, Image, Pressable } from 'react-native'
-import FontAwesomeIcon from "~/components/FontAwesomeIcon";
+import FontAwesomeIcon from "~/component-lib/FontAwesomeIcon";
 import { faImages, faSmile, } from "@fortawesome/free-solid-svg-icons";
 import twi, { tw } from "~/lib/tailwind"
 import { faYoutube } from '@fortawesome/free-brands-svg-icons';
@@ -31,7 +31,7 @@ const OKCreatePostBox = () => {
                         <Text style={tw`font-semibold text-gray-500`}>Photos/Video</Text>
                     </View>
                 </Pressable>
-                <Pressable style={(state) => [tw`flex-1 flex-row items-center h-8 focus:outline-none focus:bg-gray-200 justify-center  rounded-md`, state.hovered && tw`bg-gray-100`]}>
+                <Pressable style={(state) => [tw`flex-1 flex-row items-center h-8 focus:outline-none focus:bg-gray-200 justify-center rounded-md`, state.hovered && tw`bg-gray-100`]}>
                     <FontAwesomeIcon icon={faSmile} style={twi`text-yellow-500`} />
                     <View>
                         <Text style={tw`font-semibold text-gray-500`}>Feeling/Activity</Text>

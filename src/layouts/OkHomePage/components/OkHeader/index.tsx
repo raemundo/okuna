@@ -1,6 +1,6 @@
 import React from 'react'
 import { View, Text, Image, TextInput, Pressable } from 'react-native'
-import FontAwesomeIcon from "~/components/FontAwesomeIcon";
+import FontAwesomeIcon from "~/component-lib/FontAwesomeIcon";
 import { faBell, faCircleNotch, faGlobeAmericas, faHome, faPlus, faSortDown, faUsers } from "@fortawesome/free-solid-svg-icons";
 import Link from "next-rn/link";
 import twi, { tw } from "~/lib/tailwind"

@@ -1,5 +1,5 @@
 import { View, Text, Image, Pressable } from 'react-native'
-import FontAwesomeIcon from "~/components/FontAwesomeIcon";
+import FontAwesomeIcon from "~/component-lib/FontAwesomeIcon";
 import { faComment, faEllipsisV, faSmile } from "@fortawesome/free-solid-svg-icons";
 import twi, { tw } from "~/lib/tailwind"
 
