@@ -4,7 +4,7 @@ import React from "react";
 import { View, Text, TextInput, Pressable, ImageBackground } from 'react-native'
 import twi, { tw } from "~/lib/tailwind";
 import OkFooter from "~/components/layout/OkFooter";
-import OkModals from '~/layouts/OKHomePage/components/OkModals';
+import OkModals from '~/layouts/OkHomePage/components/OkModals';
 import bg from "./assets/emojis-bg.png"
 // import ensureHasNoStoredAuthToken from '~/middleware/ensure-has-no-stored-auth-token';
 const t = (txt) => txt;
