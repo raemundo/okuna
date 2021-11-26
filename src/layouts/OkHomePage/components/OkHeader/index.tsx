@@ -7,7 +7,7 @@ import twi, { tw } from "~/lib/tailwind"
 import OkLogo from "~/components/OkLogo"
 import OkHeaderSearchBar from './components/OkHeaderSearchBar';
 import { faFacebookMessenger } from '@fortawesome/free-brands-svg-icons';
-export default function Header() {
+export default function OkHeader() {
     return (
         <View style={tw`flex-row justify-between items-center border-b-2 border-gray-100  h-12`}>
             <View style={tw`flex-row justify-start`}>
