@@ -14,39 +14,41 @@ export default function OkAuthPage({ children }) {
     return (
         <View style={[tw`flex-wrap flex-col-reverse lg:flex-row items-stretch`, { minHeight: '100vh' }]}>
             <View style={tw`flex-1 justify-center items-center m-0`}>
-                <Text style={tw`text-3xl font-bold`}>
-                    {t('pages.auth.title')}
-                </Text>
-                <Text>
-                    <Twemoji>
-                        🏡 {t('pages.auth.usps.friends')}
-                    </Twemoji>
-                </Text>
+                <View style={tw``}>
+                    <Text style={tw`text-3xl font-bold`}>
+                        {t('pages.auth.title')}
+                    </Text>
+                    <Text>
+                        <Twemoji>
+                            🏡 {t('pages.auth.usps.friends')}
+                        </Twemoji>
+                    </Text>
 
-                <Text>
-                    <Twemoji>
-                        🙈️ {t('pages.auth.usps.privacy')}
-                    </Twemoji>
-                </Text>
+                    <Text>
+                        <Twemoji>
+                            🙈️ {t('pages.auth.usps.privacy')}
+                        </Twemoji>
+                    </Text>
 
-                <Text>
-                    <Twemoji>
-                        😍
-                        {t('pages.auth.usps.revenue')}
-                    </Twemoji>
-                </Text>
+                    <Text>
+                        <Twemoji>
+                            😍
+                            {t('pages.auth.usps.revenue')}
+                        </Twemoji>
+                    </Text>
 
-                <Text>
-                    <Twemoji>
-                        🛀 {t('pages.auth.usps.mental_health')}
-                    </Twemoji>
-                </Text>
+                    <Text>
+                        <Twemoji>
+                            🛀 {t('pages.auth.usps.mental_health')}
+                        </Twemoji>
+                    </Text>
 
-                <Text>
-                    <Twemoji>
-                        🌎 {t('pages.auth.usps.planet')}
-                    </Twemoji>
-                </Text>
+                    <Text>
+                        <Twemoji>
+                            🌎 {t('pages.auth.usps.planet')}
+                        </Twemoji>
+                    </Text>
+                </View>
 
                 <OkFooter />
             </View>
