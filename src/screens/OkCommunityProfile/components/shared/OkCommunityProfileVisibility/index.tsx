@@ -6,7 +6,7 @@ import twi, { tw } from "~/lib/tailwind";
 export default function OkCommunityProfileVisibility() {
     return (
         <View style={tw`flex-row items-center mt-5`}>
-            <FontAwesomeIcon icon={faGlobeAmericas} size="2x" style={twi`px-2 text-gray-500`} /> <Text style={tw`text-gray-500`}>Public</Text>
+            <Text style={tw`text-gray-500`}><FontAwesomeIcon icon={faGlobeAmericas} size="2x" style={twi`px-2 text-gray-500`} /> Public</Text>
         </View>
     )
 }
