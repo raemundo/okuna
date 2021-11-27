@@ -10,7 +10,7 @@ function OkLoginPage() {
             <View>
                 <OkLogo />
             </View>
-            <View style={tw`p-2 border border-gray-100 `}>
+            <View style={tw`p-2 border border-gray-100`}>
                 <OkLoginForm />
             </View>
             <Text style={tw`text-center text-gray-600 text-lg px-6`}>{t('common:name')}</Text>

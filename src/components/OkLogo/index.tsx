@@ -8,7 +8,7 @@ export default function OkLogo({style}) {
     return (
         <View style={[tw`flex-row items-center justify-center`, getStyle]}>
             <Image source={logo} style={tw`h-10 w-10`} />
-            <Text style={tw`text-xl`}>Okuna</Text>
+            <Text style={tw`text-xl font-semibold hidden md:flex`}>Okuna</Text>
         </View>
     )
 }
