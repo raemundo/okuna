@@ -52,7 +52,7 @@ export default function OkAuthPage({ children }) {
             </View>
             <ImageBackground
                 source={{ uri: "/assets/emojis-bg.png" }}
-                style={tw`flex-1 justify-center items-center bg-gray-50`}
+                style={tw`flex-1 justify-center items-center bg-gray-50 p-4`}
                 resizeMode="stretch"
             >
                 {children}
