@@ -13,8 +13,8 @@ const t = (txt) => txt;
 export default function OkAuthPage({ children }) {
     return (
         <View style={[tw`flex-wrap flex-col-reverse lg:flex-row items-stretch`, { minHeight: '100vh' }]}>
-            <View style={tw`flex-1 justify-center items-center m-0`}>
-                <View style={tw``}>
+            <View style={tw`flex-1 justify-between items-center m-0`}>
+                <View style={tw`w-full h-10/12 justify-center items-center`}>
                     <Text style={tw`text-3xl font-bold`}>
                         {t('pages.auth.title')}
                     </Text>

@@ -5,7 +5,7 @@ import Link from "next-rn/link";
 
 export default function OkFooter() {
     return (
-        <View style={tw`w-full md:flex-row flex-wrap justify-around`}>
+        <View style={tw`w-full md:flex-row flex-wrap justify-around content-center`}>
             <Link routeName="home" web={{ path: "/" }}>About us</Link>
             <Link routeName="home" web={{ path: "/" }}>Privacy policy</Link>
             <Link routeName="home" web={{ path: "/" }}>Terms of use</Link>
