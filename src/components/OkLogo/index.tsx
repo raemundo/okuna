@@ -7,7 +7,7 @@ export default function OkLogo({style}) {
     const getStyle = style ?? {}
     return (
         <View style={[tw`flex-row items-center p-2.5`, getStyle]}>
-            <Image source={logo} style={tw`w-4 h-4 md:h-10 md:w-10`} />
+            <Image source={logo} style={tw`w-8 h-8 md:h-10 md:w-10`} />
             <Text style={tw`hidden text-xl font-semibold md:flex`}>Okuna</Text>
         </View>
     )
