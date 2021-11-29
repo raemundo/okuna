@@ -54,7 +54,7 @@
   "devDependencies": {
     "@babel/plugin-proposal-class-properties": "^7.16.0",
     "@commitlint/cli": "^13.1.0",
-    "@commitlint/config-conventional": "^13.1.0",
+    "@commitlint/config-conventional": "^15.0.0",
     "@expo/next-adapter": "^3.0.6",
     "@graphql-codegen/cli": "2.1.1",
     "@styled-jsx/plugin-sass": "^4.0.1",
