@@ -7,14 +7,12 @@ import OkDesktopCommunityProfileTimeline from "./components/OkDesktopCommunityPr
 const OkCommunityProfile = () => {
   return (
 
-    <View style={tw`w-9/12 mx-auto mt-6 h-full`}>
+    <View style={tw`w-9/12 h-full mx-auto mt-6`}>
       <OkDesktopCommunityProfileHeader />
       {/* After bio content */}
-      <View style={tw`h-full mt-2`}>
-        <View style={tw`flex-row flex-wrap`}>
-          <OkDesktopCommunityProfileSidebar />
-          <OkDesktopCommunityProfileTimeline />
-        </View>
+      <View style={tw`flex-row flex-wrap h-full mt-2`}>
+        <OkDesktopCommunityProfileSidebar />
+        <OkDesktopCommunityProfileTimeline />
       </View>
     </View>
   );
