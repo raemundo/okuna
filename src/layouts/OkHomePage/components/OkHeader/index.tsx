@@ -7,6 +7,12 @@ import twi, { tw } from "~/lib/tailwind"
 import OkLogo from "~/components/OkLogo"
 import OkHeaderSearchBar from './components/OkHeaderSearchBar';
 
+
+import OkUserMenuDropdown from "./components/OkUserMenuDropdown";
+import OkUserNotificationsDropdown from "./components/OkUserNotificationsDropdown";
+import OkMobileNotificationsIcon from './components/OkMobileNotificationsIcon';
+
+
 export default function OkHeader() {
     return (
         <View style={tw`flex-row items-center justify-between h-12 bg-white border-b-2 border-gray-100 dark:border-gray-800 dark:bg-black lg:px-16`}>
@@ -28,14 +34,7 @@ export default function OkHeader() {
                 <Link routeName="notifications" web={{ path: "/n" }} isText={false}>
                     <FontAwesomeIcon style={twi`text-2xl text-black dark:text-white`} icon={faBell} />
                 </Link>
-                <Pressable style={(state) => [
-                    tw`flex-row items-center justify-between px-2 py-1 bg-gray-200 rounded-full`,
-                    state.hovered && tw`bg-gray-300`
-                ]}>
-                    <Image source={{ uri: 'https://picsum.photos/200' }} style={tw`w-6 h-6 rounded-full`} />
-                    <Text style={tw`hidden mx-4 text-sm font-semibold md:flex`}>Saiful</Text>
-                    <FontAwesomeIcon icon={faSortDown} />
-                </Pressable >
+                <OkUserMenuDropdown />
             </View>
         </View>
     )
