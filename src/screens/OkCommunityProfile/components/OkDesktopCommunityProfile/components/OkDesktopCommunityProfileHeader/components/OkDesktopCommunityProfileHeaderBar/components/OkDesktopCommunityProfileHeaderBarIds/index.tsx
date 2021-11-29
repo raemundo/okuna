@@ -4,7 +4,7 @@ import twi, { tw } from "~/lib/tailwind";
 
 export default function OkDesktopCommunityProfileHeaderBarIds() {
     return (
-        <View>
+        <View style={tw`mx-2`}>
             <Text style={tw`font-bold text-black dark:text-white`}>Coffe</Text>
             <Text style={tw`font-bold text-black dark:text-white`}>c/coffee</Text>
         </View>
