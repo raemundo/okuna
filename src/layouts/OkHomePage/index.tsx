@@ -8,7 +8,7 @@ function OkHomePage({ children }) {
     return (
         <>
             <OkHeader />
-            <View style={tw`bg-gray-50`}>
+            <View style={tw`bg-gray-50 dark:bg-gray-900`}>
                 {children}
             </View>
         </>

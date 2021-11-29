@@ -10,7 +10,7 @@ import OkCommunityAvatar from "~/components/avatars/OkCommunityAvatar";
 export default function OkDesktopCommunityProfileHeader() {
     return (
         <View
-            style={tw`w-full shadow border border-gray-300 bg-white rounded-lg`}
+            style={tw`w-full bg-white border border-gray-300 rounded-lg shadow`}
         >
             <OkCommunityCover />
             <OkDesktopCommunityProfileHeaderBar />
