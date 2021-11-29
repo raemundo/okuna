@@ -12,6 +12,7 @@ export default function OkHttpList({ children }) {
     return (
         <>
             {children}
+            <OkPostSkeleton />
         </>
     )
 }
