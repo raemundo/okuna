@@ -2,6 +2,7 @@ import React from 'react'
 import { View, Text } from 'react-native'
 import twi, { tw } from "~/lib/tailwind";
 
+import Card from "~/component-lib/Card"
 import OkCommunityProfileVisibility from "~/screens/OkCommunityProfile/components/shared/OkCommunityProfileVisibility"
 import OkCommunityProfileCategories from '~/screens/OkCommunityProfile/components/shared/OkCommunityProfileCategories';
 import OkCommunityProfileInfoButtons from '~/screens/OkCommunityProfile/components/shared/OkCommunityProfileInfoButtons';
@@ -14,12 +15,11 @@ import OkSmartText from '~/components/smart-text/OkSmartText';
 
 export default function OkDesktopCommunityProfileSidebar() {
     return (
-        <View style={tw`w-full md:w-2/6 mt-1`}>
-            <View
-                style={tw`bg-white rounded-lg p-3 shadow border border-gray-300`}
+        <View style={tw`w-full mt-1 md:w-2/6`}>
+            <Card
             >
                 <View style={tw`mb-2 `}>
-                    <Text style={tw`font-bold text-sm text-gray-400`}>About</Text>
+                    <Text style={tw`text-sm font-bold text-gray-400`}>About</Text>
                 </View>
                 <View style={tw`flex p-2`}>
                     <OkSmartText
@@ -27,12 +27,12 @@ export default function OkDesktopCommunityProfileSidebar() {
                     />
                 </View>
 
-                <View style={tw`flex-row border-t border-gray-400 mt-5`}>
+                <View style={tw`flex-row mt-5 border-t border-gray-400`}>
                 </View>
                 <OkCommunityProfileVisibility />
                 <OkCommunityProfileCategories />
                 <OkCommunityProfileInfoButtons />
-            </View>
+            </Card>
         </View>
 
     )
