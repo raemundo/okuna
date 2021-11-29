@@ -7,7 +7,7 @@ import twi, { tw } from '~/lib/tailwind'
 export default function OkHeaderSearchBar() {
     return (
         <>
-            <TextInput style={tw`hidden md:flex flex-1 border border-transparent rounded-2xl bg-gray-100 py-2 px-4`} placeholder="search" />
+            <TextInput style={tw`flex-1 hidden px-4 py-2 text-center bg-gray-100 border border-transparent dark:bg-gray-500 md:flex rounded-2xl`} placeholder="search" />
         </>
     )
 }
