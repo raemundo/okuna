@@ -19,8 +19,8 @@ export default function Skeleton({ width = 100, height = 10, variant="rectangula
     return (
         <LinearGradient
             // Button Linear Gradient
-            colors={["transparent", " rgba(75, 85, 99, 70)", "transparent"]}
-            style={[tw`bg-gray-500 rounded-full ${variantStyle}`, { width, height }, style]}
+            colors={["transparent", "rgb(243, 244, 246)", "transparent"]}
+            style={[tw`bg-gray-200 rounded-full ${variantStyle}`, { width, height }, style]}
         >
         </LinearGradient>
     )
