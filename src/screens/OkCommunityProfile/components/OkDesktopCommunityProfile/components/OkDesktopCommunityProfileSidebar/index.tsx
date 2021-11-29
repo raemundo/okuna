@@ -3,6 +3,7 @@ import { View, Text } from 'react-native'
 import twi, { tw } from "~/lib/tailwind";
 
 import Card from "~/component-lib/Card"
+import Divider from "~/component-lib/Divider"
 import OkCommunityProfileVisibility from "~/screens/OkCommunityProfile/components/shared/OkCommunityProfileVisibility"
 import OkCommunityProfileCategories from '~/screens/OkCommunityProfile/components/shared/OkCommunityProfileCategories';
 import OkCommunityProfileInfoButtons from '~/screens/OkCommunityProfile/components/shared/OkCommunityProfileInfoButtons';
@@ -26,11 +27,10 @@ export default function OkDesktopCommunityProfileSidebar() {
                         text="A place for coffee enthusiast. Third wave and specialty coffee, brewing methods, roasting, cool, places, equipments, culture."
                     />
                 </View>
-
-                <View style={tw`flex-row mt-5 border-t border-gray-400`}>
-                </View>
+                <Divider />
                 <OkCommunityProfileVisibility />
                 <OkCommunityProfileCategories />
+                <Divider />
                 <OkCommunityProfileInfoButtons />
             </Card>
         </View>
