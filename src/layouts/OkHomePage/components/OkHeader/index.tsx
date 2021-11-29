@@ -9,16 +9,16 @@ import OkHeaderSearchBar from './components/OkHeaderSearchBar';
 
 export default function OkHeader() {
     return (
-        <View style={tw`flex-row justify-between items-center border-b-2 border-gray-100 h-12 lg:px-16`}>
+        <View style={tw`flex-row items-center justify-between h-12 border-b-2 border-gray-100 lg:px-16`}>
             <OkLogo style={tw`flex-1`} />
             <OkHeaderSearchBar />
-            <View style={tw`flex-2 lg:flex-1 flex-row justify-between items-center px-2`}>
-                <Pressable style={(state) => [tw`flex lg:hidden w-10 h-10 bg-gray-200 rounded-full items-center justify-center`, state.hovered && tw`bg-gray-300`]}>
-                    <FontAwesomeIcon style={twi`text-gray-500`} icon={faSearch} />
-                </Pressable>
+            <View style={tw`flex-row items-center justify-between px-2 flex-8 lg:flex-1`}>
                 <Link routeName="home" web={{ path: "/" }} isText={false}>
                     <FontAwesomeIcon style={twi`text-2xl text-black`} icon={faHome} />
                 </Link>
+                <Pressable style={(state) => [tw`flex items-center justify-center w-10 h-10 rounded-full lg:hidden`, state.hovered && tw`bg-gray-300`]}>
+                    <FontAwesomeIcon style={twi`text-2xl text-black`} icon={faSearch} />
+                </Pressable>
                 <Link routeName="now" web={{ path: "/now" }} isText={false}>
                     <FontAwesomeIcon style={twi`text-2xl text-black`} icon={faGlobeAmericas} />
                 </Link>
@@ -29,11 +29,11 @@ export default function OkHeader() {
                     <FontAwesomeIcon style={twi`text-2xl text-black`} icon={faBell} />
                 </Link>
                 <Pressable style={(state) => [
-                    tw`rounded-full items-center justify-between flex-row py-1 px-2 bg-gray-200`,
+                    tw`flex-row items-center justify-between px-2 py-1 bg-gray-200 rounded-full`,
                     state.hovered && tw`bg-gray-300`
                 ]}>
                     <Image source={{ uri: 'https://picsum.photos/200' }} style={tw`w-6 h-6 rounded-full`} />
-                    <Text style={tw`hidden md:flex font-semibold text-sm mx-4`}>Saiful</Text>
+                    <Text style={tw`hidden mx-4 text-sm font-semibold md:flex`}>Saiful</Text>
                     <FontAwesomeIcon icon={faSortDown} />
                 </Pressable >
             </View>
