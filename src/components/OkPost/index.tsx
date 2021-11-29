@@ -23,9 +23,7 @@ export default function OKPost() {
                     />
                 </View>
                 <View style={tw`flex flex-col flex-grow`}>
-                    <View style={tw`font-semibold text-gray-500`}>
-                        <Text>Saiful Islam</Text>
-                    </View>
+                    <Text style={tw`font-semibold text-gray-500 dark:text-white`}>Saiful Islam</Text>
                     <View style={tw`flex-row`}>
                         <Text style={tw`text-xs font-bold text-gray-700`}>@saiful</Text>
                         <Text style={tw`mx-2 text-xs text-gray-300`}>2d</Text>

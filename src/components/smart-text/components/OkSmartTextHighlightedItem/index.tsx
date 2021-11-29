@@ -4,6 +4,6 @@ import twi, { tw } from "~/lib/tailwind";
 
 export default function OkSmartTextHighlightedItem({ children }) {
     return (
-        <Text>{children}</Text>
+        <Text style={tw`text-black dark:text-white`}>{children}</Text>
     )
 }
