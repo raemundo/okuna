@@ -10,7 +10,7 @@ export default function OkPostsStream({ leading }) {
     return (
         <>
             {leading}
-            <OkHttpList>
+            <OkHttpList listType="post">
                 <OkPost />
             </OkHttpList>
         </>
