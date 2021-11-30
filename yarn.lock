@@ -13459,10 +13459,10 @@ tty-browserify@0.0.1:
   resolved "https://registry.yarnpkg.com/tty-browserify/-/tty-browserify-0.0.1.tgz#3f05251ee17904dfd0677546670db9651682b811"
   integrity sha512-C3TaO7K81YvjCgQH9Q1S3R3P3BtN3RIM8n+OvX4il1K1zgE8ZhI0op7kClgkxtutIE8hQrcrHBXvIheqKUUCxw==
 
-twrnc@2.0.7:
-  version "2.0.7"
-  resolved "https://registry.yarnpkg.com/twrnc/-/twrnc-2.0.7.tgz#c3520a672168c04873bf04504793c041e2ca793f"
-  integrity sha512-p3xBKBX2u5p0PA15PKsV8G6KmuhkCyVGJMqZkz9hvkFq7QqEyvU0es5pSLbgd9pI3jNVHWNLDExCOZgG++D11w==
+twrnc@2.1.1:
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/twrnc/-/twrnc-2.1.1.tgz#1a699543ebd2305896c78c907a27b0e276f8bfb6"
+  integrity sha512-75QRwAq6ouKAvbZznaKnvzPrOoPXOXNJIW++q/R7+aAVj5n3WSAidEVlBVsYxbedoBGWufgcMf7G8tB29ll1Pw==
   dependencies:
     tailwindcss "^2.0.0"
 
