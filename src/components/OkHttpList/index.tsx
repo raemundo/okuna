@@ -8,11 +8,13 @@ import OkCommunityCardSkeleton from "~/components/skeletons/cards/OkCommunityCar
 import OkCommunityTileSkeleton from "~/components/skeletons/tiles/OkCommunityTileSkeleton";
 import OkNotificationSkeleton from "~/components/skeletons/notification/OkNotificationSkeleton";
 
-export default function OkHttpList({ children }) {
+export default function OkHttpList({ listType, children }) {
     return (
         <>
-            {children}
-            <OkPostSkeleton />
+            {listType === "post" && (<>{children}<OkPostSkeleton /></>)}
+            {listType === "notification" && (<>{children}<OkNotificationSkeleton /></>)}
+            {listType === "community" && (<>{children}<OkCommunityCardSkeleton /></>)}
+            {listType === "community-mobile" && (<>{children}<OkCommunityTileSkeleton /></>)}
         </>
     )
 }
