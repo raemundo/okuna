@@ -43,7 +43,7 @@
     "next-pwa": "^5.4.1",
     "next-rn": "0.0.19",
     "react": "^17.0.2",
-    "react-dom": "17.0.1",
+    "react-dom": "17.0.2",
     "react-native": "https://github.com/expo/react-native/archive/sdk-43.tar.gz",
     "react-native-gesture-handler": "~1.10.2",
     "react-native-vector-icons": "^9.0.0",
