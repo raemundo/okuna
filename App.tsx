@@ -4,12 +4,13 @@ import { createStackNavigator } from "@react-navigation/stack";
 // import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 // import * as Analytics from "expo-firebase-analytics";
 import tw, { useDeviceContext } from "~/lib/tailwind";
+import OkLoginPage from "~/screens/OkLoginPage"
 
-import "~/lib/i18n";
-import Home from "~/screens";
+// import "~/lib/i18n";
+import screenList from "./screenlist";
 
 const Tab = createStackNavigator();
-// const Tab = createBottomTabNavigator();
+// // const Tab = createBottomTabNavigator();
 
 const navigationRef = React.createRef();
 
@@ -43,10 +44,14 @@ export default function App() {
         routeNameRef.current = currentRouteName;
       }}
     >
-      <Tab.Navigator initialRouteName="home">
-        <Tab.Screen name="home">
-          {(props) => (<Home {...props} />)}
-        </Tab.Screen>
+      <Tab.Navigator initialRouteName="OkCommunitiesPage">
+        {screenList.map(({ name, Screen }, idx) => (
+          <Tab.Screen key={idx} name={name}>
+            {(props) => (
+              <Screen {...props} />
+            )}
+          </Tab.Screen>
+        ))}
       </Tab.Navigator>
     </NavigationContainer>
   );
