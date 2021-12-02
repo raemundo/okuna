@@ -1,3 +1,2 @@
-import OkHomePage from "~/layouts/OkHomePage";
-
-export default OkHomePage;
+import OkResetPasswordPage from "~/screens/OkResetPasswordPage";
+export default OkResetPasswordPage;

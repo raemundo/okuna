@@ -1,9 +1,11 @@
 import React from "react";
 import OkDesktopCommunityProfile from "./components/OkDesktopCommunityProfile"
-const OkCommunityProfile = () => {
+import OkHomePage from "~/layouts/OkHomePage";
+
+export default function OkCommunityProfile() {
   return (
-    <OkDesktopCommunityProfile />
+    <OkHomePage>
+      <OkDesktopCommunityProfile />
+    </OkHomePage>
   );
 };
-
-export default OkCommunityProfile;
