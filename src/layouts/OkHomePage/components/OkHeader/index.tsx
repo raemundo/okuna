@@ -16,7 +16,7 @@ import OkMobileNotificationsIcon from './components/OkMobileNotificationsIcon';
 export default function OkHeader() {
     return (
         <>
-            <View style={tw`relative flex-row items-center justify-between h-12 bg-white border-b-2 border-gray-100 dark:border-gray-800 dark:bg-black lg:px-16`}>
+            <View style={tw`flex-row items-center justify-between h-12 bg-white border-b-2 border-gray-100 z-100 dark:border-gray-800 dark:bg-black lg:px-16`}>
                 <OkLogo style={tw`flex-1`} />
                 <OkHeaderSearchBar />
                 <View style={tw`flex-row items-center justify-between px-2 flex-8 lg:flex-1`}>
@@ -32,13 +32,13 @@ export default function OkHeader() {
                     <Link routeName="community" web={{ path: "/c" }} isText={false}>
                         <FontAwesomeIcon style={twi`text-2xl text-black dark:text-white`} icon={faUsers} />
                     </Link>
-                    <Link routeName="notifications" web={{ path: "/n" }} isText={false}>
+                    <Link style={tw`md:hidden`} routeName="notifications" web={{ path: "/n" }} isText={false}>
                         <FontAwesomeIcon style={twi`text-2xl text-black dark:text-white`} icon={faBell} />
                     </Link>
+                    <OkUserNotificationsDropdown />
                     <OkUserMenuDropdown />
                 </View>
             </View>
-            <OkUserNotificationsDropdown />
         </>
     )
 }
