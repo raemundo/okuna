@@ -5,7 +5,7 @@ import { NavigationContainer } from "@react-navigation/native";
 import tw, { useDeviceContext } from "~/lib/tailwind";
 
 // import "~/lib/i18n";
-import Screens from "./screenlist";
+import Screens from "./Screens";
 
 
 
