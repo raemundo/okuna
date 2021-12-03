@@ -4,7 +4,7 @@ import { NavigationContainer } from "@react-navigation/native";
 // import * as Analytics from "expo-firebase-analytics";
 import tw, { useDeviceContext } from "~/lib/tailwind";
 
-// import "~/lib/i18n";
+import "~/lib/i18n";
 import Screens from "./Screens";
 
 
