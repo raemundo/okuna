@@ -1,3 +1,7 @@
+import { createStackNavigator } from "@react-navigation/stack";
+import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
+
+
 import OkCommunitiesPage from "~/screens/OkCommunitiesPage"
 import OkCommunityProfile from "~/screens/OkCommunityProfile"
 import OkHashtagPage from "~/screens/OkHashtagPage"
@@ -29,4 +33,20 @@ const screenList = [
     { name: "OkUserProfilePage", Screen: OkUserProfilePage },
 ];
 
-export default screenList;
+
+const Stack = createStackNavigator();
+const Tab = createBottomTabNavigator();
+
+export default function Screens() {
+    return (
+        <Stack.Navigator initialRouteName="OkCommunityProfile">
+            {screenList.map(({ name, Screen }, idx) => (
+                <Stack.Screen key={idx} name={name}>
+                    {(props) => (
+                        <Screen {...props} />
+                    )}
+                </Stack.Screen>
+            ))}
+        </Stack.Navigator>
+    )
+};
