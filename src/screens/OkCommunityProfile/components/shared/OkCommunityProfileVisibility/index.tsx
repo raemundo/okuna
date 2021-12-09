@@ -13,14 +13,14 @@ export default function OkCommunityProfileVisibility() {
                 (
                     <>
                         <FontAwesomeIcon icon={faGlobeAmericas} size="2x" style={twi`px-2 text-gray-500`} />
-                        <Text style={tw`text-gray-500 `}>{t('community__type_public')}</Text>)
+                        <Text style={tw`text-gray-500 `}>{t('community__type_public')}</Text>
                     </>
                 )
                 :
                 (
                     <>
                         <FontAwesomeIcon icon={faGlobeAmericas} size="2x" style={twi`px-2 text-gray-500`} />
-                        <Text style={tw`text-gray-500 `}>{t('community__type_private')}</Text>)
+                        <Text style={tw`text-gray-500 `}>{t('community__type_private')}</Text>
                     </>
                 )
             }
