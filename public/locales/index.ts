@@ -1,4 +1,4 @@
-import common from "./ar-EG/common.json";
+import common from "./en/common.json";
 
 const trans = {
     "en": {
