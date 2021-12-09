@@ -3,6 +3,7 @@ import App from "next/app";
 import { useRouter } from "next/router";
 import "~/assets/styles/index.scss"
 import tw, { useDeviceContext } from "~/lib/tailwind";
+import "~/lib/i18n";
 
 function MyApp({ Component, pageProps }) {
   useDeviceContext(tw);
