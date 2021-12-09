@@ -5,8 +5,10 @@ import OkLogo from "~/components/OkLogo";
 import OkLoginForm from "~/components/forms/OkLoginForm";
 import OkAuthPage from "~/layouts/OkAuthPage";
 import Card from "~/component-lib/Card"
-const t = (txt) => txt;
+import { useTranslation } from "react-i18next";
+
 function OkLoginPage() {
+    const { t } = useTranslation();
     return (
         <OkAuthPage>
             <Card style={tw`md:w-1/2`}>
@@ -14,7 +16,7 @@ function OkLoginPage() {
                 <View style={tw`p-2 dark:border-0 border border-gray-100`}>
                     <OkLoginForm />
                 </View>
-                <Text style={tw`px-6 text-lg text-center text-gray-600`}>{t('common:name')}</Text>
+                <Text style={tw`px-6 text-lg text-center text-gray-600`}>{t('auth__create_acc__create_account')}</Text>
             </Card>
         </OkAuthPage>
     )

@@ -39,7 +39,7 @@ const Tab = createBottomTabNavigator();
 
 export default function Screens() {
     return (
-        <Stack.Navigator initialRouteName="OkCommunityProfile">
+        <Stack.Navigator initialRouteName="OkLoginPage">
             {screenList.map(({ name, Screen }, idx) => (
                 <Stack.Screen key={idx} name={name}>
                     {(props) => (
