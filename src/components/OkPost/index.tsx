@@ -11,8 +11,10 @@ import OkPostReactions from "~/components/OkPost/components/OkPostReactions";
 import OkPostCommentCounts from "~/components/OkPost/components/OkPostCommentCounts";
 import OkPostActions from "~/components/OkPost/components/OkPostActions";
 import OkPostCircles from '~/components/OkPost/components/OkPostCircles';
+import { useTranslation } from 'react-i18next';
 
 export default function OKPost() {
+    const { t } = useTranslation()
     return (
         <Card>
             <View style={tw`flex-row items-center p-3 px-4`}>
@@ -42,11 +44,11 @@ export default function OKPost() {
                 <View style={tw`flex-row justify-around text-gray-400`}>
                     <Pressable style={tw`flex-row items-center justify-center w-5/12 p-2 bg-gray-200 rounded-full`}>
                         <FontAwesomeIcon icon={faSmile} />
-                        <Text style={tw`mx-1 text-sm font-semibold`}>React</Text>
+                        <Text style={tw`mx-1 text-sm font-semibold`}>{t('post__action_react')}</Text>
                     </Pressable>
                     <Pressable style={tw`flex-row items-center justify-center w-5/12 p-2 bg-gray-200 rounded-full`}>
                         <FontAwesomeIcon icon={faComment} />
-                        <Text style={tw`mx-1 text-sm font-semibold`}>Comment</Text>
+                        <Text style={tw`mx-1 text-sm font-semibold`}>{t('post__action_comment')}</Text>
                     </Pressable>
                 </View>
             </View>
