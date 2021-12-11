@@ -19,7 +19,7 @@ export default function OkDesktopCommunityProfileSidebar() {
     const { t } = useTranslation()
     return (
         <View style={tw`w-full mt-1 md:w-2/6`}>
-            <Card
+            <Card style={tw`rounded-lg`}
             >
                 <View style={tw`m-2`}>
                     <Text style={tw`text-sm font-bold text-gray-400`}>{t('community__about')}</Text>

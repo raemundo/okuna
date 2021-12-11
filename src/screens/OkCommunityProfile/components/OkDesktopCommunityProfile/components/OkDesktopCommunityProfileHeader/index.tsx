@@ -9,7 +9,7 @@ import OkCommunityAvatar from "~/components/avatars/OkCommunityAvatar";
 
 export default function OkDesktopCommunityProfileHeader() {
     return (
-        <Card>
+        <Card style={tw`rounded-lg`}>
             <OkCommunityCover />
             <OkDesktopCommunityProfileHeaderBar />
         </Card>

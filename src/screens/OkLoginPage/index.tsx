@@ -11,7 +11,7 @@ function OkLoginPage() {
     const { t } = useTranslation();
     return (
         <OkAuthPage>
-            <Card style={tw`md:w-1/2`}>
+            <Card style={tw`rounded-lg md:w-1/2`}>
                 <OkLogo style={tw`justify-center`} />
                 <View style={tw`p-2 dark:border-0 border border-gray-100`}>
                     <OkLoginForm />
