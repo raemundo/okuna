@@ -6,7 +6,7 @@ import Skeleton from "~/component-lib/Skeleton"
 
 export default function OkPostSkeleton() {
     return (
-        <Card style={tw`rounded-lg justify-between h-64 p-2`}>
+        <Card style={tw`md:rounded-lg justify-between h-64 p-2`}>
             <View style={tw`flex-row items-center`}>
                 <Skeleton variant="circular" width={50} height={50} />
                 <View style={tw`mx-2`}>

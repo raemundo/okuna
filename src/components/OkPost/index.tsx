@@ -16,7 +16,7 @@ import { useTranslation } from 'react-i18next';
 export default function OKPost() {
     const { t } = useTranslation()
     return (
-        <Card style={tw`rounded-lg`}>
+        <Card style={tw`md:rounded-lg`}>
             <View style={tw`flex-row items-center p-3 px-4`}>
                 <View style={tw`w-10 h-10 mx-2`}>
                     <Image
