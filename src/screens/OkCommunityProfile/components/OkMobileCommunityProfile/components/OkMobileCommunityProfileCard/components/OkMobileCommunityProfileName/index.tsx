@@ -4,8 +4,6 @@ import twi, { tw } from "~/lib/tailwind";
 
 export default function OkMobileCommunityProfileName() {
     return (
-        <View>
-            <Text></Text>
-        </View>
+        <Text style={tw`font-bold text-gray-500 dark:text-white`}>Coffe</Text>
     )
 }
