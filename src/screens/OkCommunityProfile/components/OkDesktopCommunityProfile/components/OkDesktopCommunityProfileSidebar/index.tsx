@@ -18,17 +18,20 @@ import { useTranslation } from 'react-i18next';
 export default function OkDesktopCommunityProfileSidebar() {
     const { t } = useTranslation()
     return (
-        <Card style={tw`rounded-lg w-full md:w-2/6`}
-        >
-            <View style={tw`m-2`}>
-                <Text style={tw`text-sm font-bold text-gray-400`}>{t('community__about')}</Text>
-            </View>
-            <OkCommunityProfileDescription />
-            <Divider />
-            <OkCommunityProfileVisibility />
-            <OkCommunityProfileCategories />
-            <Divider />
-            <OkCommunityProfileInfoButtons />
-        </Card>
+        <View style={tw`w-full md:w-2/6`}>
+            <Card style={tw`rounded-lg`}
+            >
+                <View style={tw`m-2`}>
+                    <Text style={tw`text-sm font-bold text-gray-400`}>{t('community__about')}</Text>
+                </View>
+                <OkCommunityProfileDescription />
+                <Divider />
+                <OkCommunityProfileVisibility />
+                <OkCommunityProfileCategories />
+                <Divider />
+                <OkCommunityProfileInfoButtons />
+            </Card>
+        </View>
+
     )
 }
