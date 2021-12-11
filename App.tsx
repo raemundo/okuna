@@ -2,7 +2,7 @@ import React, { useRef, useState, useEffect } from "react";
 import { NavigationContainer } from "@react-navigation/native";
 
 // import * as Analytics from "expo-firebase-analytics";
-import tw from "~/lib/tailwind";
+import tw, { useDeviceContextSever } from "~/lib/tailwind";
 
 import "~/lib/i18n";
 import { useDeviceContext, useAppColorScheme } from 'twrnc';
@@ -19,14 +19,10 @@ function navigate(name, params) {
 
 export default function App() {
 
-  const [isClient, setIsClient] = useState(false);
-  useEffect(() => {
-    setIsClient(true);
-  }, []);
-
-  useDeviceContext(isClient ? tw : tw, { withDeviceColorScheme: false });
-  const [colorScheme, toggleColorScheme, setColorScheme] = useAppColorScheme(isClient ? tw : tw);
-
+  useDeviceContextSever(tw)
+  const [colorScheme, toggleColorScheme, setColorScheme] = useAppColorScheme(tw);
+  tw.setColorScheme(colorScheme);
+  
   const routeNameRef = useRef();
   return (
     <NavigationContainer

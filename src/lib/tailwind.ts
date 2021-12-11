@@ -1,6 +1,7 @@
-import { create } from 'twrnc';
+import { create, useDeviceContext, useAppColorScheme } from 'twrnc';
 import { useState, useEffect } from "react";
-import { StyleSheet, useColorScheme, useWindowDimensions } from 'react-native';
+import { StyleSheet } from 'react-native';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 
 // create the customized version...
 const twi = create(require(`../../tailwind.config.js`)); // <- your path may differ
@@ -17,3 +18,11 @@ tw.style = (...exprs) => StyleSheet.create({ x: twi.style(...exprs) }).x;
 // ... and then this becomes the main function your app uses
 export default twi;
 
+export function useDeviceContextSever(tw) {
+    const [isClient, setIsClient] = useState(false);
+    useEffect(() => {
+        setIsClient(true);
+    }, []);
+
+    useDeviceContext(isClient ? tw : tw, { withDeviceColorScheme: false });
+}
