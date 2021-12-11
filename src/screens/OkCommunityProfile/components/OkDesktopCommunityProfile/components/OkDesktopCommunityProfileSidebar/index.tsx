@@ -21,7 +21,7 @@ export default function OkDesktopCommunityProfileSidebar() {
         <View style={tw`w-full mt-1 md:w-2/6`}>
             <Card
             >
-                <View style={tw`mb-2 `}>
+                <View style={tw`m-2`}>
                     <Text style={tw`text-sm font-bold text-gray-400`}>{t('community__about')}</Text>
                 </View>
                 <OkCommunityProfileDescription />
