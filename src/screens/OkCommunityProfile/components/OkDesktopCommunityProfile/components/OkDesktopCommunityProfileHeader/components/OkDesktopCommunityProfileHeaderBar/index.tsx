@@ -11,7 +11,7 @@ import OkCommunityProfileActionButtons from "~/screens/OkCommunityProfile/compon
 
 export default function OkDesktopCommunityProfileHeaderBar() {
     return (
-        <View style={tw`flex-row flex-wrap justify-between items-center w-auto`}>
+        <View style={tw`flex-row flex-wrap justify-between items-center w-auto my-3`}>
             <View style={tw`flex-row items-center justify-start w-9/12 px-2`}>
                     <OkCommunityAvatar />
                     <OkDesktopCommunityProfileHeaderBarIds />
