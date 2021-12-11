@@ -2062,10 +2062,10 @@
     xcode "^3.0.1"
     xml2js "^0.4.23"
 
-"@expo/config-plugins@4.0.11":
-  version "4.0.11"
-  resolved "https://registry.yarnpkg.com/@expo/config-plugins/-/config-plugins-4.0.11.tgz#2c11c63ec0d3f7a56d6cb45c8340a1546f3cfc5c"
-  integrity sha512-hoQq+B1NlIqWeSLKbQQ19g2vzqKhXh2glRwRFCGvqKT2/UaweFU5w7jetNPOBlVIV1+TpQmhLNbTYako6Z3vnQ==
+"@expo/config-plugins@4.0.12":
+  version "4.0.12"
+  resolved "https://registry.yarnpkg.com/@expo/config-plugins/-/config-plugins-4.0.12.tgz#9e1ac9f3fdb0415c6bc567533652d36ff49aa13d"
+  integrity sha512-rHIzkfWtIF62QXaVww0f6hYhxGogAAwhdLmxDNYoyQ+GTKKCVm77rpbpOuSFbojBY0AQv72TwVt36a5qtwFArA==
   dependencies:
     "@expo/config-types" "^43.0.1"
     "@expo/json-file" "8.2.34"
@@ -2132,13 +2132,13 @@
     slugify "^1.3.4"
     sucrase "^3.20.0"
 
-"@expo/config@6.0.11":
-  version "6.0.11"
-  resolved "https://registry.yarnpkg.com/@expo/config/-/config-6.0.11.tgz#a00815ac29c13dfb069441dff6f0b56da69baa2f"
-  integrity sha512-ohmm/fjpqL3mk1Tj9BqmeoFuGNQxfMm2cQs0JHqBCXTjBUtprrH1j6wHdKR2ctNWQxpOlStPkC6CgPv+bd1+GA==
+"@expo/config@6.0.12":
+  version "6.0.12"
+  resolved "https://registry.yarnpkg.com/@expo/config/-/config-6.0.12.tgz#77ff348c09f27852865436c5c0ef4e15ba358001"
+  integrity sha512-I2LRUBuvAoiy78WyT254k1tlNYmlbbVQ4Iz/NvAmEDg95CT0C7oLGyfH5YVOxpNnt5GAqNH8NlDXsyhY4IB6+A==
   dependencies:
     "@babel/code-frame" "~7.10.4"
-    "@expo/config-plugins" "4.0.11"
+    "@expo/config-plugins" "4.0.12"
     "@expo/config-types" "^43.0.1"
     "@expo/json-file" "8.2.34"
     getenv "^1.0.0"
@@ -2194,13 +2194,13 @@
     getenv "^1.0.0"
     metro-react-native-babel-transformer "^0.59.0"
 
-"@expo/next-adapter@^3.1.11":
-  version "3.1.11"
-  resolved "https://registry.yarnpkg.com/@expo/next-adapter/-/next-adapter-3.1.11.tgz#75affdbf18522e3a37ea0e737023dc29b1e3d35a"
-  integrity sha512-smEw+B0LVSR8eLzMhfKcjybUnETzAsllABT/S09NcvgUnxfSb9WfTLlYuVHnixhRCYGUN1SVqhObTftSFOMEGw==
+"@expo/next-adapter@^3.1.12":
+  version "3.1.12"
+  resolved "https://registry.yarnpkg.com/@expo/next-adapter/-/next-adapter-3.1.12.tgz#9fd8503802b246872dbe0c529bee353d477d5881"
+  integrity sha512-eDUZ7yMvOj0v2htbgP06lM8MVHNyZlWuLXr5V1Hrrsgj/zMzIPzp3yfQcLWWalM5mikabPxH6Ge2x7naj0iX0A==
   dependencies:
     "@expo/package-manager" "0.0.48"
-    "@expo/webpack-config" "0.16.11"
+    "@expo/webpack-config" "0.16.12"
     babel-preset-expo "^8.4.1"
     chalk "^4.0.0"
     commander "^4.0.1"
@@ -2275,19 +2275,19 @@
     lodash.pick "^4.4.0"
     lodash.template "^4.5.0"
 
-"@expo/webpack-config@0.16.11":
-  version "0.16.11"
-  resolved "https://registry.yarnpkg.com/@expo/webpack-config/-/webpack-config-0.16.11.tgz#b3cbf5775512d4f0c05c55481e4ecbf74ca76e68"
-  integrity sha512-HiChcBg5nO4fwsVlkUfZKuntJoZG526HJ9v8t+mtOUglWq0f9FYx11XPEDlbowcPGTyXBZBD2Jb/8r2bDfLC5g==
+"@expo/webpack-config@0.16.12":
+  version "0.16.12"
+  resolved "https://registry.yarnpkg.com/@expo/webpack-config/-/webpack-config-0.16.12.tgz#e3051f70cd31922c1845c6a796cc3b8f4948a3f4"
+  integrity sha512-M0uuMBpkealzTkDxv9Ifz7/3euGo5vslS/mP8cdnuA+IiwBAFPJYOnylHpHGGNZZzkLYUYttkoEv162tAPnviA==
   dependencies:
     "@babel/core" "7.9.0"
-    "@expo/config" "6.0.11"
+    "@expo/config" "6.0.12"
     babel-loader "8.1.0"
     chalk "^4.0.0"
     clean-webpack-plugin "^3.0.0"
     copy-webpack-plugin "~6.0.3"
     css-loader "~3.6.0"
-    expo-pwa "0.0.106"
+    expo-pwa "0.0.107"
     file-loader "~6.0.0"
     find-yarn-workspace-root "~2.0.0"
     getenv "^1.0.0"
@@ -6397,12 +6397,12 @@ expo-modules-core@~0.4.4, expo-modules-core@~0.4.8:
     compare-versions "^3.4.0"
     invariant "^2.2.4"
 
-expo-pwa@0.0.106:
-  version "0.0.106"
-  resolved "https://registry.yarnpkg.com/expo-pwa/-/expo-pwa-0.0.106.tgz#45f31eff08854e77f745c236ae1bf77fcd825df2"
-  integrity sha512-Cxv09VTB6pak8xbdTPcJ9ItrtRvYUT0SC4SJVJhO+q0Pw28su25wsUoV9mlkP2t9ddteYIe8iqfrztCzsDjPJQ==
+expo-pwa@0.0.107:
+  version "0.0.107"
+  resolved "https://registry.yarnpkg.com/expo-pwa/-/expo-pwa-0.0.107.tgz#42b895bb09e3698b17d91398ad186fb676ba5ca8"
+  integrity sha512-kPnT3mEzOj7eM/pM1BrFYInRjBEZzHfygsCvY2o1xzhjnD8Xx93oVU4hnASXiollyb8l4qvAkcUJPFjxgGxN7A==
   dependencies:
-    "@expo/config" "6.0.11"
+    "@expo/config" "6.0.12"
     "@expo/image-utils" "0.3.18"
     chalk "^4.0.0"
     commander "2.20.0"
