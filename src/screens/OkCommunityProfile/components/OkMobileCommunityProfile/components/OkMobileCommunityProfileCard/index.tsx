@@ -24,8 +24,10 @@ export default function OkMobileCommunityProfileCard() {
             <OkMobileCommunityProfileTitle />
             <OkMobileCommunityProfileName />
             <OkCommunityProfileDescription />
-            <OkCommunityProfileVisibility />
-            <OkMobileCommunityProfileMembersCount />
+            <View style={tw`flex-row items-center`}>
+                <OkCommunityProfileVisibility />
+                <OkMobileCommunityProfileMembersCount />
+            </View>
             <OkMobileCommunityProfilePostsCount />
             <OkCommunityProfileCategories />
             <OkCommunityProfileInfoButtons />

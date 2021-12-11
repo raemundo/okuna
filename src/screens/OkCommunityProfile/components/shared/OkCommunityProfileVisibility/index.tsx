@@ -8,7 +8,7 @@ import { useTranslation } from 'react-i18next';
 export default function OkCommunityProfileVisibility() {
     const { t } = useTranslation();
     return (
-        <View style={tw`flex-row items-center mt-5`}>
+        <View style={tw`flex-row items-center`}>
             {true ?
                 (
                     <>
