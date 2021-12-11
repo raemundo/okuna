@@ -5,7 +5,7 @@ import OkCategoryButton from "~/components/buttons/OkCategoryButton"
 
 export default function OkCommunityProfileCategories() {
     return (
-        <View style={tw`flex-row`}>
+        <View style={tw`flex-row my-1`}>
             <OkCategoryButton color="yellow">food</OkCategoryButton>
             <OkCategoryButton color="green">photos</OkCategoryButton>
         </View >
