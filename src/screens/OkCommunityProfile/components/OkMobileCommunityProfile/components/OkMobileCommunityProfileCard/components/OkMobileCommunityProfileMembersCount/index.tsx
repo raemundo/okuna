@@ -4,8 +4,6 @@ import twi, { tw } from "~/lib/tailwind";
 
 export default function OkMobileCommunityProfileMembersCount() {
     return (
-        <View>
-            <Text></Text>
-        </View>
+        <Text style={tw`px-2 text-gray-500`}>210 Addicts</Text>
     )
 }
