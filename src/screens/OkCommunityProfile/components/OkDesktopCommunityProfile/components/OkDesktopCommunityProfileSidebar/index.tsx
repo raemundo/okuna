@@ -12,7 +12,7 @@ import OkJoinCommunityButton from '~/components/buttons/OkJoinCommunityButton';
 import OkCommunityProfileActionButtons from '~/screens/OkCommunityProfile/components/shared/OkCommunityProfileActionButtons';
 import OkMobileCommunityProfileTitle from '~/screens/OkCommunityProfile/components/OkMobileCommunityProfile/components/OkMobileCommunityProfileCard/components/OkMobileCommunityProfileTitle'
 import OkMobileCommunityProfileName from '~/screens/OkCommunityProfile/components/OkMobileCommunityProfile/components/OkMobileCommunityProfileCard/components/OkMobileCommunityProfileName';
-import OkSmartText from '~/components/smart-text/OkSmartText'; 
+import OkCommunityProfileDescription from '~/screens/OkCommunityProfile/components/shared/OkCommunityProfileDescription';
 import { useTranslation } from 'react-i18next';
 
 export default function OkDesktopCommunityProfileSidebar() {
@@ -24,11 +24,7 @@ export default function OkDesktopCommunityProfileSidebar() {
                 <View style={tw`mb-2 `}>
                     <Text style={tw`text-sm font-bold text-gray-400`}>{t('community__about')}</Text>
                 </View>
-                <View style={tw`flex p-2`}>
-                    <OkSmartText
-                        text="A place for coffee enthusiast. Third wave and specialty coffee, brewing methods, roasting, cool, places, equipments, culture."
-                    />
-                </View>
+                <OkCommunityProfileDescription />
                 <Divider />
                 <OkCommunityProfileVisibility />
                 <OkCommunityProfileCategories />
