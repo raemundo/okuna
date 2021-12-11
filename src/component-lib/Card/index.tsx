@@ -4,7 +4,7 @@ import twi, { tw } from "~/lib/tailwind"
 
 export default function Card({ children , style={}}) {
     return (
-        <View style={[tw`w-full h-auto my-2 bg-white border border-gray-300 rounded-md shadow dark:border-gray-900 dark:bg-black`, style]}>
+        <View style={[tw`w-full h-auto bg-white border border-gray-300 shadow dark:border-gray-900 dark:bg-black`, style]}>
             {children}
         </View>
     )
