@@ -1,7 +1,6 @@
 import { create, useDeviceContext, useAppColorScheme } from 'twrnc';
 import { useState, useEffect } from "react";
 import { StyleSheet } from 'react-native';
-import AsyncStorage from '@react-native-async-storage/async-storage';
 
 // create the customized version...
 const twi = create(require(`../../tailwind.config.js`)); // <- your path may differ

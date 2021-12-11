@@ -6,7 +6,6 @@ import tw, { useDeviceContextSever } from "~/lib/tailwind";
 import { useAppColorScheme } from "twrnc";
 import "~/lib/i18n";
 import { TouchableOpacity, Text } from "react-native";
-import AsyncStorage from '@react-native-async-storage/async-storage';
 
 function MyApp({ Component, pageProps }) {
   useDeviceContextSever(tw)
