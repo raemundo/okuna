@@ -5,7 +5,7 @@ import OkEmojiReactionButton from "~/components/buttons/OkEmojiReactionButton";
 
 export default function OkPostReactions() {
     return (
-        <View style={tw`flex-row items-center justify-between px-3 pb-2 my-2`}>
+        <View style={tw`flex-row items-center justify-between mx-2 my-2`}>
             <View style={tw`flex-row items-center text-sm`}>
                 {[{ count: 15, emoji: '❤' }, { count: 10, emoji: '👍' }, { count: 11, emoji: '😁' }].map((item, idx) => (
                     <OkEmojiReactionButton key={idx} item={item} />
