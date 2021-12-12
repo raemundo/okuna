@@ -39,19 +39,8 @@ export default function OKPost() {
             </View>
             <OkPostText />
             <OkPostMedia />
-            <View style={tw`flex flex-col w-full p-2 px-4`}>
-                <OkPostReactions />
-                <View style={tw`flex-row justify-around text-gray-400`}>
-                    <Pressable style={tw`flex-row items-center justify-center w-5/12 p-2 bg-gray-200 dark:bg-gray-900 rounded-full`}>
-                        <FontAwesomeIcon icon={faSmile} style={twi`dark:text-white`} />
-                        <Text style={tw`mx-1 text-sm font-semibold dark:text-white`}>{t('post__action_react')}</Text>
-                    </Pressable>
-                    <Pressable style={tw`flex-row items-center justify-center w-5/12 p-2 bg-gray-200 dark:bg-gray-900 rounded-full`}>
-                        <FontAwesomeIcon icon={faComment} style={twi`dark:text-white`} />
-                        <Text style={tw`mx-1 text-sm font-semibold dark:text-white`}>{t('post__action_comment')}</Text>
-                    </Pressable>
-                </View>
-            </View>
+            <OkPostReactions />
+            <OkPostActions />
         </Card>
     )
 }
