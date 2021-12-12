@@ -6,7 +6,7 @@ import OkReactToPostButton from "./components/OkReactToPostButton"
 
 export default function OkPostActions() {
     return (
-        <View style={tw`flex-row justify-around text-gray-400`}>
+        <View style={tw`flex-row justify-around text-gray-400 mb-4`}>
             <OkCommentPostButton />
             <OkReactToPostButton />
         </View>
