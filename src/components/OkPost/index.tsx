@@ -1,6 +1,6 @@
 import { View, Text, Image, Pressable } from 'react-native'
 import FontAwesomeIcon from "~/component-lib/FontAwesomeIcon";
-import { faComment, faEllipsisV, faSmile } from "@fortawesome/free-solid-svg-icons";
+import { faEllipsisV } from "@fortawesome/free-solid-svg-icons";
 import twi, { tw } from "~/lib/tailwind"
 import Card from "~/component-lib/Card"
 import OkPostHeader from "~/components/OkPost/components/OkPostHeader";
@@ -13,8 +13,7 @@ import OkPostActions from "~/components/OkPost/components/OkPostActions";
 import OkPostCircles from '~/components/OkPost/components/OkPostCircles';
 import { useTranslation } from 'react-i18next';
 
-export default function OKPost() {
-    const { t } = useTranslation()
+export default function OkPost() {
     return (
         <Card style={tw`md:rounded-lg`}>
             <View style={tw`flex-row justify-between items-center m-3`}>
