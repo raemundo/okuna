@@ -17,25 +17,23 @@ export default function OKPost() {
     const { t } = useTranslation()
     return (
         <Card style={tw`md:rounded-lg`}>
-            <View style={tw`flex-row items-center p-3 px-4`}>
-                <View style={tw`w-10 h-10 mx-2`}>
+            <View style={tw`flex-row justify-between items-center m-3`}>
+                <View style={tw`flex-row`}>
                     <Image
                         source={{ uri: "https://picsum.photos/200" }}
-                        style={tw`w-full h-full rounded-lg`}
+                        style={tw`w-10 h-10 rounded-lg`}
                     />
-                </View>
-                <View style={tw`flex flex-col flex-grow`}>
-                    <Text style={tw`font-semibold text-gray-500 dark:text-white`}>Saiful Islam</Text>
-                    <View style={tw`flex-row`}>
-                        <Text style={tw`text-xs font-bold text-gray-700`}>@saiful</Text>
-                        <Text style={tw`mx-2 text-xs text-gray-300`}>2d</Text>
+                    <View style={tw`mx-2`}>
+                        <Text style={tw`font-semibold text-gray-500 dark:text-white`}>Saiful Islam</Text>
+                        <View style={tw`flex-row`}>
+                            <Text style={tw`text-xs font-bold text-gray-700`}>@saiful</Text>
+                            <Text style={tw`mx-2 text-xs text-gray-300`}>2d</Text>
+                        </View>
                     </View>
                 </View>
-                <View style={tw`w-8 h-8`}>
-                    <Pressable style={tw`w-full h-full text-gray-800 rounded-full hover:bg-gray-100 focus:outline-none`}>
-                        <FontAwesomeIcon icon={faEllipsisV} />
-                    </Pressable>
-                </View>
+                <Pressable style={tw`text-gray-800 rounded-full hover:bg-gray-100 focus:outline-none`}>
+                    <FontAwesomeIcon icon={faEllipsisV} />
+                </Pressable>
             </View>
             <OkPostText />
             <OkPostMedia />
