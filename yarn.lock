@@ -2194,10 +2194,10 @@
     getenv "^1.0.0"
     metro-react-native-babel-transformer "^0.59.0"
 
-"@expo/next-adapter@^3.1.12":
-  version "3.1.12"
-  resolved "https://registry.yarnpkg.com/@expo/next-adapter/-/next-adapter-3.1.12.tgz#9fd8503802b246872dbe0c529bee353d477d5881"
-  integrity sha512-eDUZ7yMvOj0v2htbgP06lM8MVHNyZlWuLXr5V1Hrrsgj/zMzIPzp3yfQcLWWalM5mikabPxH6Ge2x7naj0iX0A==
+"@expo/next-adapter@^3.1.13":
+  version "3.1.13"
+  resolved "https://registry.yarnpkg.com/@expo/next-adapter/-/next-adapter-3.1.13.tgz#98abb954d5dff68a49a9fecb9d664fb410d7792d"
+  integrity sha512-C2uzCazobC2EYEBWmvYVAdtrYEPXy7i5VCzdtucAcT5DW6gbigNcY3AMI8PCHFn7GlEy2t95Pu3Tv2lyPCAgBQ==
   dependencies:
     "@expo/package-manager" "0.0.48"
     "@expo/webpack-config" "0.16.12"
