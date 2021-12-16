@@ -57,7 +57,7 @@
     "react-native-web": "0.17.1",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat",
     "twrnc": "2.2.0",
-    "typescript": "~4.5.3"
+    "typescript": "~4.5.4"
   },
   "devDependencies": {
     "@babel/plugin-proposal-class-properties": "^7.16.0",
@@ -68,7 +68,7 @@
     "@styled-jsx/plugin-sass": "^4.0.2",
     "@types/react": "~17.0.21",
     "@types/react-dom": "~17.0.9",
-    "@types/react-native": "~0.66.8",
+    "@types/react-native": "~0.66.9",
     "autoprefixer": "^9",
     "babel-plugin-module-resolver": "^4.1.0",
     "buefy": "^0.9.13",
