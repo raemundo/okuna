@@ -1,11 +1,17 @@
+import Card from '~/component-lib/Card';
 import React from 'react'
 import { View, Text } from 'react-native'
 import twi, { tw } from "~/lib/tailwind";
+import OkDesktopUserProfileHeaderBar from "./components/OkDesktopUserProfileHeaderBar"
+import OkUserCover from "~/components/covers/OkUserCover";
+
+// from '~/pages/home/pages/user/components/desktop-user-profile/components/desktop-user-profile-header/components/desktop-user-profile-header-bar/OkDesktopUserProfileHeaderBar.vue';
 
 export default function OkDesktopUserProfileHeader() {
     return (
-        <View>
-            <Text></Text>
-        </View>
+        <Card style={tw`rounded-lg`}>
+            <OkUserCover />
+            <OkDesktopUserProfileHeaderBar/>
+        </Card>
     )
 }
