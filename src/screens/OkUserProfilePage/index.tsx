@@ -8,10 +8,8 @@ import OkMobileUserProfilePage from './components/OkMobileUserProfilePage/';
 export default function OkUserProfilePage() {
     return (
         <OkHomePage>
-            <OkHomePage>
-                {twi.prefixMatch('md') && <OkDesktopUserProfilePage/>}
-                {!twi.prefixMatch('md') && <OkMobileUserProfilePage/>}
-            </OkHomePage>
+            {twi.prefixMatch('md') && <OkDesktopUserProfilePage />}
+            {!twi.prefixMatch('md') && <OkMobileUserProfilePage />}
         </OkHomePage>
     )
 }
