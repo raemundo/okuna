@@ -9,10 +9,16 @@ import OkDesktopUserProfileHeaderBarStats from "./components/OkDesktopUserProfil
 import OkDesktopUserProfileHeaderBarIds from "./components/OkDesktopUserProfileHeaderBarIds";
 import OkUserProfileActionButtons from "~/screens/OkUserProfilePage/components/shared/OkUserProfileActionButtons";
 
+
 export default function OkDesktopUserProfileHeaderBar() {
     return (
-        <View>
-            <Text></Text>
+        <View style={tw`flex-row flex-wrap justify-between items-center w-auto my-3`}>
+            <View style={tw`flex-row items-center justify-start w-9/12 px-2`}>
+                    <OkUserAvatar />
+                    <OkDesktopUserProfileHeaderBarIds />
+                    <OkDesktopUserProfileHeaderBarStats />
+            </View>
+            <OkUserProfileActionButtons />
         </View>
     )
 }
