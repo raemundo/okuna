@@ -4,9 +4,8 @@ import { tw } from "~/lib/tailwind";
 import OkDesktopCommunityProfileHeader from "./components/OkDesktopCommunityProfileHeader"
 import OkDesktopCommunityProfileSidebar from "./components/OkDesktopCommunityProfileSidebar"
 import OkDesktopCommunityProfileTimeline from "./components/OkDesktopCommunityProfileTimeline"
-const OkCommunityProfile = () => {
+export default function OkCommunityProfile() {
   return (
-
     <View style={tw`w-9/12 h-full mx-auto mt-6`}>
       <OkDesktopCommunityProfileHeader />
       {/* After bio content */}
@@ -17,5 +16,3 @@ const OkCommunityProfile = () => {
     </View>
   );
 };
-
-export default OkCommunityProfile;
