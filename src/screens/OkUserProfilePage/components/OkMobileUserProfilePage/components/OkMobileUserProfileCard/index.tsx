@@ -28,9 +28,11 @@ export default function OkMobileUserProfileCard() {
             <OkUserProfileLocation />
             <OkUserProfileUrl />
             <OkUserProfileAge />
-            <OkMobileUserProfileFollowersCount />
-            <OkMobileUserProfilePostsCount />
-            <OkMobileUserProfileFollowingCount />
+            <View style={tw`flex-row flex-wrap`}>
+                <OkMobileUserProfileFollowersCount />
+                <OkMobileUserProfilePostsCount />
+                <OkMobileUserProfileFollowingCount />
+            </View>
         </Card>
     )
 }
