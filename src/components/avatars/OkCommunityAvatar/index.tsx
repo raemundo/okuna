@@ -7,10 +7,10 @@ import OkImageAvatar from "~/components/avatars/OkImageAvatar";
 import OkLetterAvatar from "~/components/avatars/OkLetterAvatar";
 import Avatar from "~/component-lib/Avatar";
 
-export default function OkCommunityAvatar() {
+export default function OkCommunityAvatar({style}) {
     return (
         <>
-            <Avatar source={{ uri: 'https://picsum.photos/200' }} style={tw`w-18 h-18`} />
+            <Avatar source={{ uri: 'https://picsum.photos/200' }} style={[tw`w-18 h-18`, style]} />
         </>
     )
 }
