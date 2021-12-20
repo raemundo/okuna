@@ -14,10 +14,10 @@ import OkMobileCommunityProfilePostsCount from '~/screens/OkCommunityProfile/com
 import Card from '~/component-lib/Card';
 import Divider from '@/src/component-lib/Divider';
 
-export default function OkCommunityCard() {
+export default function OkCommunityCard({ style }) {
     return (
-        <Card style={tw`rounded-lg h-64 w-60`}>
-            <OkCommunityCover style={tw`h-40`}/>
+        <Card style={[tw`rounded-lg h-64 w-60`, style]}>
+            <OkCommunityCover style={tw`h-40`} />
             <View style={tw`flex-row items-center m-2`}>
                 <OkCommunityAvatar style={tw`w-10 h-10 rounded-lg`} />
                 <View>
