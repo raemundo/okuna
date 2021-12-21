@@ -13,8 +13,8 @@ import { useTranslation } from 'react-i18next';
 export default function OkDesktopCommunitiesPage() {
     const { t } = useTranslation();
     return (
-        <View style={tw`w-11/12 mx-auto`}>
-            <View style={tw`flex-row flex-wrap mb-52`}>
+        <View style={tw`w-11/12 h-full mx-auto`}>
+            <View style={tw`flex-row flex-wrap`}>
                 <OkFatButton
                     text={t('community__user_you_text')}
                     textColor='black'
@@ -44,7 +44,8 @@ export default function OkDesktopCommunitiesPage() {
                     <OkCategoryPreviewButton text={i.text} textColor={i.textColor} textBackgroundColor={i.textBackgroundColor} backgroundImageSrc={i.backgroundImageSrc} />
                 ))}
             </View>
-            <OkDesktopCommunitiesCategory />
+            {/* <OkDesktopCommunitiesCategory /> */}
+            <OkDesktopCommunitiesYouCategory />
         </View>
     )
 }
