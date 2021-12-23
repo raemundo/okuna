@@ -7,10 +7,8 @@ import OkHttpList from "~/components/OkHttpList";
 
 export default function OkUserNotificationsStream() {
     return (
-        <Card style={tw`rounded-lg absolute z-100 w-100 h-100 top-8`}>
-            <OkHttpList listType="notification">
-                <OkUserNotification />
-            </OkHttpList>
-        </Card>
+        <OkHttpList listType="notification">
+            <OkUserNotification />
+        </OkHttpList>
     )
 }
