@@ -1,11 +1,9 @@
 import React from 'react'
-import { View, Text } from 'react-native'
+import { TextInput } from 'react-native'
 import twi, { tw } from "~/lib/tailwind";
 
 export default function OkCommentPostForm() {
     return (
-        <View>
-            <Text></Text>
-        </View>
+        <TextInput style={tw`bg-gray-200 border border-gray-300 dark:border-gray-800 dark:text-white rounded-lg flex-1`} />
     )
 }

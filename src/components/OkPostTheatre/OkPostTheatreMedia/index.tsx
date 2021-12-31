@@ -1,11 +1,13 @@
 import React from 'react'
 import { View, Text } from 'react-native'
 import twi, { tw } from "~/lib/tailwind";
+import OkPostTheatreMediaImage from '~/components/OkPostTheatre/OkPostTheatreMedia/components/OkPostTheatreMediaImage';
+import OkPostTheatreMediaVideo from '~/components/OkPostTheatre/OkPostTheatreMedia/components/OkPostTheatreMediaVideo';
 
 export default function OkPostTheatreMedia() {
     return (
-        <View>
-            <Text></Text>
-        </View>
+        <>
+            {true ? <OkPostTheatreMediaImage /> : <OkPostTheatreMediaVideo /> }
+        </>
     )
 }
