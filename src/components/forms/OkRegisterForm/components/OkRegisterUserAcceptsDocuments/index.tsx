@@ -8,7 +8,7 @@ export default function OkRegisterUserAcceptsDocuments() {
     const {t} = useTranslation('')
     return (
         <>
-            <Text>{t('auth__create_acc__are_you_legal_age')}</Text>
+            <Text style={tw`dark:text-white`}>{t('auth__create_acc__are_you_legal_age')}</Text>
             <OkButtonsNavigation />
         </>
     )
