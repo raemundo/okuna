@@ -14,7 +14,7 @@ import OkRegisterUserSubmit from "./components/OkRegisterUserSubmit";
 export default function OkRegisterForm() {
   return (
     <View>
-      <OkButtonsNavigation />
+      {/* <OkButtonsNavigation /> */}
       <OkRegisterUserNameForm />
       <OkRegisterUserEmailForm />
       <OkRegisterUserUsernameForm />
