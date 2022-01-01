@@ -9,7 +9,7 @@ import OkRequestPasswordResetForm from "~/components/forms/OkRequestPasswordRese
 export default function OkRequestPasswordResetPage() {
     return (
         <OkAuthPage>
-            <Card style={tw`rounded-lg md:w-1/2`}>
+            <Card style={tw`rounded-lg md:w-1/2 p-2`}>
                 <OkLogo style={tw`justify-center`} />
                 <OkRequestPasswordResetForm />
             </Card>
