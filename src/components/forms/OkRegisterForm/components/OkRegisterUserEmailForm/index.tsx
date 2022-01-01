@@ -1,7 +1,6 @@
 import React from "react";
 import { View, Text, TextInput } from "react-native";
 import twi, { tw } from "~/lib/tailwind";
-import OkButtonsNavigation from "~/components/navigation/OkButtonsNavigation";
 import { useTranslation } from "react-i18next";
 
 export default function OkRegisterUserEmailForm() {
@@ -26,7 +25,6 @@ export default function OkRegisterUserEmailForm() {
       <Text style={tw`text-red-500`}>
         {t("auth__create_acc__email_taken_error")}
       </Text>
-      <OkButtonsNavigation />
     </>
   );
 }

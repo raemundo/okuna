@@ -14,8 +14,10 @@ export default function OkRegisterPage() {
     <OkAuthPage>
       <Card style={tw`rounded-lg p-3`}>
         <Twemoji>✨</Twemoji>
-        <Text style={tw`dark:text-white text-2xl text-center`}>{t("auth__create_account")}</Text>
-        {true ? <OkRegisterTokenForm /> : <OkRegisterForm />}
+        <Text style={tw`dark:text-white text-2xl text-center`}>
+          {t("auth__create_account")}
+        </Text>
+        {true ? <OkRegisterForm /> : <OkRegisterTokenForm />}
         <Pressable
           style={tw`mt-5 bg-green-500 p-3 rounded-3xl text-xl text-center text-white font-bold`}
         >
