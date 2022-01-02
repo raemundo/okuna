@@ -25,10 +25,10 @@ export default function OkDesktopCommunityProfileSidebar() {
                     <Text style={tw`text-sm font-bold text-gray-400`}>{t('community__about')}</Text>
                 </View>
                 <OkCommunityProfileDescription />
-                <Divider />
+                <Divider style={tw`mt-5`} />
                 <OkCommunityProfileVisibility />
                 <OkCommunityProfileCategories />
-                <Divider />
+                <Divider style={tw`mt-5`} />
                 <OkCommunityProfileInfoButtons />
             </Card>
         </View>

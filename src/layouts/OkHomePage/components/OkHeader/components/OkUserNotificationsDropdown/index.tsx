@@ -12,7 +12,7 @@ export default function OkUserNotificationsDropdown() {
             <Pressable onPress={() => { setHidden(!hidden) }}>
                 <FontAwesomeIcon style={twi`text-2xl text-black dark:text-white hidden lg:flex`} icon={faBell} />
             </Pressable>
-            {!hidden && <OkUserNotifications />}
+            {!hidden && <OkUserNotifications style={tw`absolute rounded-lg z-100 w-100 h-100 top-12`} />}
         </>
     )
 }
