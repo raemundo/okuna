@@ -27,7 +27,7 @@ export default function OkUserMenuDropdown() {
         </Text>
         <FontAwesomeIcon icon={faSortDown} />
       </Pressable>
-      {!hidden && <OkUserMenu style={tw`rounded-lg absolute z-100 w-100 h-auto top-10`} /> }
+      {!hidden && <OkUserMenu style={tw`rounded-lg absolute z-100 w-100 h-auto top-12`} /> }
     </>
   );
 }
