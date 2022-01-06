@@ -9,8 +9,10 @@ import OkNewPostAction from "~/components/OkNewPostAction";
 export default function OkTimelinePage() {
   return (
     <OkHomePage>
-      <OkPostsStream leading={<OkTimelinePostUploads />} />
-      <OkNewPostAction />
+      <View style={tw`w-full mx-auto mt-5 lg:w-6/12`}>
+        <OkPostsStream leading={<OkTimelinePostUploads />} />
+        <OkNewPostAction />
+      </View>
     </OkHomePage>
   );
 }
