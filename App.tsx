@@ -2,10 +2,10 @@ import React, { useRef, useState, useEffect } from "react";
 import { NavigationContainer } from "@react-navigation/native";
 
 // import * as Analytics from "expo-firebase-analytics";
-import tw, { useDeviceContextSever } from "~/lib/tailwind";
+import tw, { useDeviceContext } from "~/lib/tailwind";
 
 import "~/lib/i18n";
-import { useDeviceContext, useAppColorScheme } from 'twrnc';
+import {  useAppColorScheme } from 'twrnc';
 import Screens from "./Screens";
 
 
@@ -19,7 +19,7 @@ function navigate(name, params) {
 
 export default function App() {
 
-  useDeviceContextSever(tw)
+  useDeviceContext(tw)
   const [colorScheme, toggleColorScheme, setColorScheme] = useAppColorScheme(tw);
   tw.setColorScheme(colorScheme);
   
