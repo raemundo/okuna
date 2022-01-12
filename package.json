@@ -43,7 +43,7 @@
     "expo-linear-gradient": "~11.0.0",
     "generate-robotstxt": "^8.0.3",
     "i18next": "^21.6.3",
-    "next": "12.0.7",
+    "next": "12.0.8",
     "next-pwa": "^5.4.4",
     "next-rn": "0.0.20",
     "react": "17.0.1",
