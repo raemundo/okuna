@@ -63,7 +63,7 @@
     "@babel/plugin-proposal-class-properties": "^7.16.5",
     "@commitlint/cli": "^16.0.1",
     "@commitlint/config-conventional": "^15.0.0",
-    "@expo/next-adapter": "^3.1.12",
+    "@expo/next-adapter": "^3.1.17",
     "@graphql-codegen/cli": "2.3.0",
     "@styled-jsx/plugin-sass": "^4.0.2",
     "@types/react": "~17.0.21",
