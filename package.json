@@ -71,7 +71,7 @@
     "@types/react-native": "~0.64.12",
     "autoprefixer": "^9",
     "babel-plugin-module-resolver": "^4.1.0",
-    "buefy": "^0.9.13",
+    "buefy": "^0.9.14",
     "bulma": "^0.9.3",
     "bulma-helpers": "^0.4.2",
     "commitizen": "^4.2.4",
