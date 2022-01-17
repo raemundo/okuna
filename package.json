@@ -69,7 +69,7 @@
     "@types/react": "~17.0.38",
     "@types/react-dom": "~17.0.9",
     "@types/react-native": "~0.66.12",
-    "autoprefixer": "^9",
+    "autoprefixer": "^10",
     "babel-plugin-module-resolver": "^4.1.0",
     "buefy": "^0.9.14",
     "bulma": "^0.9.3",
