@@ -68,7 +68,7 @@
     "@styled-jsx/plugin-sass": "^4.0.2",
     "@types/react": "~17.0.38",
     "@types/react-dom": "~17.0.9",
-    "@types/react-native": "~0.66.12",
+    "@types/react-native": "~0.66.13",
     "autoprefixer": "^10",
     "babel-plugin-module-resolver": "^4.1.0",
     "buefy": "^0.9.14",
