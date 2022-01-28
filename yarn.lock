@@ -12858,7 +12858,7 @@ sync-fetch@0.3.1:
     buffer "^5.7.0"
     node-fetch "^2.6.1"
 
-tailwindcss@^2.0.0:
+tailwindcss@^=2.0.0:
   version "2.2.19"
   resolved "https://registry.yarnpkg.com/tailwindcss/-/tailwindcss-2.2.19.tgz#540e464832cd462bb9649c1484b0a38315c2653c"
   integrity sha512-6Ui7JSVtXadtTUo2NtkBBacobzWiQYVjYW0ZnKaP9S1ZCKQ0w7KVNz+YSDI/j7O7KCMHbOkz94ZMQhbT9pOqjw==
@@ -13283,12 +13283,12 @@ tty-browserify@0.0.0:
   resolved "https://registry.yarnpkg.com/tty-browserify/-/tty-browserify-0.0.0.tgz#a157ba402da24e9bf957f9aa69d524eed42901a6"
   integrity sha1-oVe6QC2iTpv5V/mqadUk7tQpAaY=
 
-twrnc@2.3.0:
-  version "2.3.0"
-  resolved "https://registry.yarnpkg.com/twrnc/-/twrnc-2.3.0.tgz#031cde1de8da8ec9a284a6f21f7d39701217509a"
-  integrity sha512-oiA11j9IwIZCRXYJakS4wY3uD9Q7gaJLBD17JXWIc+JaQl86aR+KepxGrNX/FfiP+87+DfdZDdvXUEjmolpxwQ==
+twrnc@3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/twrnc/-/twrnc-3.0.0.tgz#23a89765421727f9e6f7f58d958afc6ca53e5aca"
+  integrity sha512-CMV/OJ0Br2WGbe+SEUz3bllNUQQDu4u7UtCMgnejytjtEmkXIElkkwhzli07fAfNco62Sk6ARG/V3/IAnZAKbQ==
   dependencies:
-    tailwindcss "^2.0.0"
+    tailwindcss "^=2.0.0"
 
 type-fest@^0.13.1:
   version "0.13.1"
