@@ -40,7 +40,7 @@
     "@react-navigation/stack": "^6.1.0",
     "expo": "^44.0.5",
     "expo-constants": "~13.0.1",
-    "expo-linear-gradient": "~11.0.1",
+    "expo-linear-gradient": "~11.0.2",
     "generate-robotstxt": "^8.0.3",
     "i18next": "^21.6.10",
     "next": "12.0.10",
