@@ -36,7 +36,7 @@
     "@pwa/manifest": "^1.1.0",
     "@react-native-async-storage/async-storage": "~1.15.17",
     "@react-navigation/bottom-tabs": "^6.1.0",
-    "@react-navigation/native": "^6.0.7",
+    "@react-navigation/native": "^6.0.8",
     "@react-navigation/stack": "^6.1.0",
     "expo": "^44.0.6",
     "expo-constants": "~13.0.1",
