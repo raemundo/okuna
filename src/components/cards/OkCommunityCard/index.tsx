@@ -12,7 +12,7 @@ import OkCommunityProfileInfoButtons from '~/screens/OkCommunityProfile/componen
 import OkMobileCommunityProfileMembersCount from '~/screens/OkCommunityProfile/components/OkMobileCommunityProfile/components/OkMobileCommunityProfileCard/components/OkMobileCommunityProfileMembersCount';
 import OkMobileCommunityProfilePostsCount from '~/screens/OkCommunityProfile/components/OkMobileCommunityProfile/components/OkMobileCommunityProfileCard/components/OkMobileCommunityProfilePostsCount';
 import Card from 'native-headless-ui/src/components/Card';
-import Divider from '@/src/component-lib/Divider';
+import Divider from 'native-headless-ui/src/components/Divider';
 
 export default function OkCommunityCard({ style }) {
     return (
