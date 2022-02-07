@@ -9262,7 +9262,7 @@ expo-keep-awake@~10.0.2:
   resolved "https://registry.yarnpkg.com/expo-keep-awake/-/expo-keep-awake-10.0.2.tgz#706bda839782bb3e8ad4cbe43bde471a56368813"
   integrity sha512-Ro1lgyKldbFs4mxhWM+goX9sg0S2SRR8FiJJeOvaRzf8xNhrZfWA00Zpr+/3ocCoWQ3eEL+X9UF4PXXHf0KoOg==
 
-expo-linear-gradient@~11.0.2:
+expo-linear-gradient@^11.0.2, expo-linear-gradient@~11.0.2:
   version "11.0.2"
   resolved "https://registry.yarnpkg.com/expo-linear-gradient/-/expo-linear-gradient-11.0.2.tgz#e59d28bb7f30f92f4a4da58955443860dc2335ca"
   integrity sha512-zV3aNlPh92iRjC0A8r8lYHxEOZL9u2oqPUUJr6iz7nlcq2XEsa9nlT+CVs9LGRf+tVxBuIUvb/EjJyoe8IBXpA==
@@ -13326,6 +13326,21 @@ nanomatch@^1.2.9:
     regex-not "^1.0.0"
     snapdragon "^0.8.1"
     to-regex "^3.0.1"
+
+native-headless-ui@^0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/native-headless-ui/-/native-headless-ui-0.0.1.tgz#b11824a20b2878788f9745ab3e379796b1964011"
+  integrity sha512-+aKO8a4J7oSSl6P2XU67oOCC+tveeGrhNB9RXNpH5LbgbEvJVRCA3lXF35TtUKG8oRR0NuV6PpZVzcR1oP7dpQ==
+  dependencies:
+    expo-linear-gradient "^11.0.2"
+    next "12.0.10"
+    react "17.0.2"
+    react-dom "17.0.2"
+    react-native "0.67.2"
+    react-native-web "0.17.5"
+    tailwindcss "npm:@tailwindcss/postcss7-compat"
+    twrnc "3.0.2"
+    typescript "~4.5.5"
 
 negotiator@0.6.2:
   version "0.6.2"
@@ -17501,6 +17516,13 @@ twrnc@3.0.1:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/twrnc/-/twrnc-3.0.1.tgz#fcf187bb70d60a9eb0ca4a2ff4fa880445945e44"
   integrity sha512-dNTDtE1UXLFcB/VxvTyR9f3YjYFa61pNaRmSMETd45GZsnsngU1IKMQ2wqOYXSnR+ncrWyvEpMok+b+REkp7Lw==
+  dependencies:
+    tailwindcss ">=2.0.0"
+
+twrnc@3.0.2:
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/twrnc/-/twrnc-3.0.2.tgz#01fa7ea67fa24f5d632f60849a64b936b48265be"
+  integrity sha512-sYlwOSsqfNyXHJQaltxb32T9sLf7oGmkwxSjDDPEtpeM7F5S1lsuCtDQK6wNmHUISgqwM594kcyvIJdPh4fvHQ==
   dependencies:
     tailwindcss ">=2.0.0"
 
