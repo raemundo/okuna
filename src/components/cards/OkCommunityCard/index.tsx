@@ -11,7 +11,7 @@ import OkMobileCommunityProfileName from "~/screens/OkCommunityProfile/component
 import OkCommunityProfileInfoButtons from '~/screens/OkCommunityProfile/components/shared/OkCommunityProfileInfoButtons';
 import OkMobileCommunityProfileMembersCount from '~/screens/OkCommunityProfile/components/OkMobileCommunityProfile/components/OkMobileCommunityProfileCard/components/OkMobileCommunityProfileMembersCount';
 import OkMobileCommunityProfilePostsCount from '~/screens/OkCommunityProfile/components/OkMobileCommunityProfile/components/OkMobileCommunityProfileCard/components/OkMobileCommunityProfilePostsCount';
-import Card from '~/component-lib/Card';
+import Card from 'native-headless-ui/src/components/Card';
 import Divider from '@/src/component-lib/Divider';
 
 export default function OkCommunityCard({ style }) {

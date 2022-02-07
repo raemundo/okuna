@@ -4,7 +4,7 @@ import { tw } from "~/lib/tailwind"
 import OkLogo from "~/components/OkLogo";
 import OkLoginForm from "~/components/forms/OkLoginForm";
 import OkAuthPage from "~/layouts/OkAuthPage";
-import Card from "~/component-lib/Card"
+import Card from "native-headless-ui/src/components/Card"
 import { useTranslation } from "react-i18next";
 
 function OkLoginPage() {

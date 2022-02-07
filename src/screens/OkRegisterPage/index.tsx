@@ -4,7 +4,7 @@ import twi, { tw } from "~/lib/tailwind";
 import OkAuthPage from "~/layouts/OkAuthPage";
 import OkRegisterTokenForm from "~/components/forms/OkInviteTokenForm";
 import OkRegisterForm from "~/components/forms/OkRegisterForm";
-import Card from "~/component-lib/Card";
+import Card from "native-headless-ui/src/components/Card";
 import Twemoji from "~/component-lib/Twemoji";
 import { useTranslation } from "react-i18next";
 

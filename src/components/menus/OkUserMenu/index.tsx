@@ -21,7 +21,7 @@ import {
   faUserCircle,
   faMobile
 } from "@fortawesome/free-solid-svg-icons";
-import Card from "~/component-lib/Card";
+import Card from "native-headless-ui/src/components/Card";
 
 export default function OkUserMenu({ style }) {
   const { t } = useTranslation();

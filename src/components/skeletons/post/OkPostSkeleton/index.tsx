@@ -1,8 +1,8 @@
 import React from 'react'
 import { View, Text } from 'react-native'
 import twi, { tw } from "~/lib/tailwind";
-import Card from "~/component-lib/Card"
-import Skeleton from "~/component-lib/Skeleton"
+import Card from "native-headless-ui/src/components/Card"
+import Skeleton from "native-headless-ui/src/components/Skeleton"
 
 export default function OkPostSkeleton() {
     return (

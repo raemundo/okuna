@@ -4,7 +4,7 @@ import FontAwesomeIcon from "~/component-lib/FontAwesomeIcon";
 import { faSortDown } from "@fortawesome/free-solid-svg-icons";
 import twi, { tw } from "~/lib/tailwind";
 import OkUserAvatar from "~/components/avatars/OkUserAvatar";
-import Avatar from "~/component-lib/Avatar";
+import Avatar from "native-headless-ui/src/components/Avatar";
 import OkUserMenu from "~/components/menus/OkUserMenu";
 
 export default function OkUserMenuDropdown() {

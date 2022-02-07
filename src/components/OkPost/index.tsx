@@ -2,7 +2,7 @@ import { View, Text, Image, Pressable } from 'react-native'
 import FontAwesomeIcon from "~/component-lib/FontAwesomeIcon";
 import { faEllipsisV } from "@fortawesome/free-solid-svg-icons";
 import twi, { tw } from "~/lib/tailwind"
-import Card from "~/component-lib/Card"
+import Card from "native-headless-ui/src/components/Card"
 import OkPostHeader from "~/components/OkPost/components/OkPostHeader";
 import OkPostText from "~/components/OkPost/components/OkPostText";
 import OkPostMedia from "~/components/OkPost/components/OkPostMedia";

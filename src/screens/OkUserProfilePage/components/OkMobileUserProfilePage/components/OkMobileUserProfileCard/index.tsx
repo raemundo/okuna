@@ -1,7 +1,7 @@
 import React from 'react'
 import { View, Text } from 'react-native'
 import twi, { tw } from "~/lib/tailwind";
-import Card from '~/component-lib/Card';
+import Card from 'native-headless-ui/src/components/Card';
 
 import OkUserAvatar from '~/components/avatars/OkUserAvatar';
 import { OkAvatarSize } from '~/components/avatars/lib/OkAvatarSize';

@@ -2,8 +2,8 @@ import React from 'react'
 import { View, Text } from 'react-native'
 import twi, { tw } from "~/lib/tailwind";
 
-import Card from "~/component-lib/Card"
-import Divider from "~/component-lib/Divider"
+import Card from "native-headless-ui/src/components/Card"
+import Divider from "native-headless-ui/src/components/Divider"
 import OkCommunityProfileVisibility from "~/screens/OkCommunityProfile/components/shared/OkCommunityProfileVisibility"
 import OkCommunityProfileCategories from '~/screens/OkCommunityProfile/components/shared/OkCommunityProfileCategories';
 import OkCommunityProfileInfoButtons from '~/screens/OkCommunityProfile/components/shared/OkCommunityProfileInfoButtons';
