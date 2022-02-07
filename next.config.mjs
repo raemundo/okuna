@@ -12,6 +12,7 @@ const withTmInitializer = await import("next-transpile-modules")
 const withTM = withTmInitializer.default([
   "twrnc",
   "next-rn",
+  "native-headless-ui"
   // you can add other modules that need traspiling here
 ]);
 
