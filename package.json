@@ -45,7 +45,7 @@
     "expo-linear-gradient": "~11.0.2",
     "generate-robotstxt": "^8.0.3",
     "i18next": "^21.6.10",
-    "native-headless-ui": "^0.0.1",
+    "native-headless-ui": "^0.0.2",
     "next": "12.0.10",
     "next-pwa": "^5.4.4",
     "next-rn": "0.0.20",

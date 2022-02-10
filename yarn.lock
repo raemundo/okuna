@@ -9262,7 +9262,12 @@ expo-keep-awake@~10.0.2:
   resolved "https://registry.yarnpkg.com/expo-keep-awake/-/expo-keep-awake-10.0.2.tgz#706bda839782bb3e8ad4cbe43bde471a56368813"
   integrity sha512-Ro1lgyKldbFs4mxhWM+goX9sg0S2SRR8FiJJeOvaRzf8xNhrZfWA00Zpr+/3ocCoWQ3eEL+X9UF4PXXHf0KoOg==
 
-expo-linear-gradient@^11.0.2, expo-linear-gradient@~11.0.2:
+expo-linear-gradient@^11.0.3:
+  version "11.0.3"
+  resolved "https://registry.yarnpkg.com/expo-linear-gradient/-/expo-linear-gradient-11.0.3.tgz#bc559b9a251c9dc8aa37fb6c66c7a497fe92993c"
+  integrity sha512-LuzTM5+iEHCQfC2TBHAAI+ZjPvf0TvGiA7GYMsyTnakGA2r4JtsV8Ah/miQPKhfG06jLDOo4grUoSMGqbmSrEw==
+
+expo-linear-gradient@~11.0.2:
   version "11.0.2"
   resolved "https://registry.yarnpkg.com/expo-linear-gradient/-/expo-linear-gradient-11.0.2.tgz#e59d28bb7f30f92f4a4da58955443860dc2335ca"
   integrity sha512-zV3aNlPh92iRjC0A8r8lYHxEOZL9u2oqPUUJr6iz7nlcq2XEsa9nlT+CVs9LGRf+tVxBuIUvb/EjJyoe8IBXpA==
@@ -13327,12 +13332,12 @@ nanomatch@^1.2.9:
     snapdragon "^0.8.1"
     to-regex "^3.0.1"
 
-native-headless-ui@^0.0.1:
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/native-headless-ui/-/native-headless-ui-0.0.1.tgz#b11824a20b2878788f9745ab3e379796b1964011"
-  integrity sha512-+aKO8a4J7oSSl6P2XU67oOCC+tveeGrhNB9RXNpH5LbgbEvJVRCA3lXF35TtUKG8oRR0NuV6PpZVzcR1oP7dpQ==
+native-headless-ui@^0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/native-headless-ui/-/native-headless-ui-0.0.2.tgz#ec97aa44c5f6bf822f99ca65ca34b8e9aa200683"
+  integrity sha512-LWcq9YPnvUGUMfwAyvpXU1sCckbSTQSLdCK507tnIEIsBJDzj+2DWWHDwUa00rhXagSBpT3HZFNhIPCy7DtfDg==
   dependencies:
-    expo-linear-gradient "^11.0.2"
+    expo-linear-gradient "^11.0.3"
     next "12.0.10"
     react "17.0.2"
     react-dom "17.0.2"
