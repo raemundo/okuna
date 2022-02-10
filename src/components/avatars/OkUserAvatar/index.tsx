@@ -5,7 +5,7 @@ import FontAwesomeIcon from "~/component-lib/FontAwesomeIcon";
 import { faCoffee } from "@fortawesome/free-solid-svg-icons";
 import OkImageAvatar from "~/components/avatars/OkImageAvatar";
 import OkLetterAvatar from "~/components/avatars/OkLetterAvatar";
-import Avatar from "native-headless-ui/src/components/Avatar";
+import { Avatar } from "native-headless-ui";
 
 export default function OkUserAvatar() {
     return (

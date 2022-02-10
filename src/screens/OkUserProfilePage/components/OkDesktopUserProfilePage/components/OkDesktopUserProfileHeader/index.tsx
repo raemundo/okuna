@@ -1,4 +1,4 @@
-import Card from 'native-headless-ui/src/components/Card';
+import { Card } from 'native-headless-ui';
 import React from 'react'
 import { View, Text } from 'react-native'
 import twi, { tw } from "~/lib/tailwind";

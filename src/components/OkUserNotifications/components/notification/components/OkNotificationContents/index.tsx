@@ -1,7 +1,7 @@
 import React from 'react'
 import { View, Text, Pressable } from 'react-native'
 import twi, { tw } from "~/lib/tailwind";
-import Avatar from 'native-headless-ui/src/components/Avatar';
+import { Avatar } from 'native-headless-ui';
 
 import OkUserAvatar from "~/components/avatars/OkUserAvatar";
 import OkCommunityAvatar from "~/components/avatars/OkCommunityAvatar";

@@ -21,7 +21,7 @@ import {
   faUserCircle,
   faMobile
 } from "@fortawesome/free-solid-svg-icons";
-import Card from "native-headless-ui/src/components/Card";
+import { Card } from "native-headless-ui";
 
 export default function OkUserMenu({ style }) {
   const { t } = useTranslation();
@@ -29,7 +29,7 @@ export default function OkUserMenu({ style }) {
     <Card style={style}>
       <Link
         routeName=""
-        style={tw`border-b-2 border-gray-200 p-3 dark:text-white`}
+        style={tw`p-3 border-b-2 border-gray-200 dark:text-white`}
       >
         {/* md  cellphone */}
         <FontAwesomeIcon icon={faMobile} style={twi`dark:text-white`} />{" "}
@@ -37,14 +37,14 @@ export default function OkUserMenu({ style }) {
       </Link>
       <Link
         routeName=""
-        style={tw`border-b-2 border-gray-200 p-3 dark:text-white`}
+        style={tw`p-3 border-b-2 border-gray-200 dark:text-white`}
       >
         {/* md  */}
         {t("drawer__main_title")}
       </Link>
       <Link
         routeName=""
-        style={tw`border-b-2 border-gray-200 p-3 dark:text-white`}
+        style={tw`p-3 border-b-2 border-gray-200 dark:text-white`}
       >
         {/* md  */}
         <FontAwesomeIcon icon={faUser} style={twi`dark:text-white`} />{" "}
@@ -52,7 +52,7 @@ export default function OkUserMenu({ style }) {
       </Link>
       <Link
         routeName=""
-        style={tw`border-b-2 border-gray-200 p-3 dark:text-white`}
+        style={tw`p-3 border-b-2 border-gray-200 dark:text-white`}
       >
         {/* md  face-profile */}
         <FontAwesomeIcon icon={faUserCircle} style={twi`dark:text-white`} />{" "}
@@ -60,7 +60,7 @@ export default function OkUserMenu({ style }) {
       </Link>
       <Link
         routeName=""
-        style={tw`border-b-2 border-gray-200 p-3 dark:text-white`}
+        style={tw`p-3 border-b-2 border-gray-200 dark:text-white`}
       >
         {/* md  google-circles-communities */}
         <FontAwesomeIcon icon={faNetworkWired} style={twi`dark:text-white`} />{" "}
@@ -68,7 +68,7 @@ export default function OkUserMenu({ style }) {
       </Link>
       <Link
         routeName=""
-        style={tw`border-b-2 border-gray-200 p-3 dark:text-white`}
+        style={tw`p-3 border-b-2 border-gray-200 dark:text-white`}
       >
         {/* md  format-list-bulleted-type */}
         <FontAwesomeIcon icon={faListUl} style={twi`dark:text-white`} />{" "}
@@ -76,7 +76,7 @@ export default function OkUserMenu({ style }) {
       </Link>
       <Link
         routeName=""
-        style={tw`border-b-2 border-gray-200 p-3 dark:text-white`}
+        style={tw`p-3 border-b-2 border-gray-200 dark:text-white`}
       >
         {/* md account-supervisor  */}
         <FontAwesomeIcon icon={faUserFriends} style={twi`dark:text-white`} />{" "}
@@ -84,7 +84,7 @@ export default function OkUserMenu({ style }) {
       </Link>
       <Link
         routeName=""
-        style={tw`border-b-2 border-gray-200 p-3 dark:text-white`}
+        style={tw`p-3 border-b-2 border-gray-200 dark:text-white`}
       >
         {/* md  account */}
         <FontAwesomeIcon icon={faUserAlt} style={twi`dark:text-white`} />{" "}
@@ -92,7 +92,7 @@ export default function OkUserMenu({ style }) {
       </Link>
       <Link
         routeName=""
-        style={tw`border-b-2 border-gray-200 p-3 dark:text-white`}
+        style={tw`p-3 border-b-2 border-gray-200 dark:text-white`}
       >
         {/* md  wallet-giftcard */}
         {/* <i class="fas fa-gift-card"></i> not working */}
@@ -101,7 +101,7 @@ export default function OkUserMenu({ style }) {
       </Link>
       <Link
         routeName=""
-        style={tw`border-b-2 border-gray-200 p-3 dark:text-white`}
+        style={tw`p-3 border-b-2 border-gray-200 dark:text-white`}
       >
         {/* md  gavel */}
         <FontAwesomeIcon icon={faGavel} style={twi`dark:text-white`} />{" "}
@@ -109,7 +109,7 @@ export default function OkUserMenu({ style }) {
       </Link>
       <Link
         routeName=""
-        style={tw`border-b-2 border-gray-200 p-3 dark:text-white`}
+        style={tw`p-3 border-b-2 border-gray-200 dark:text-white`}
       >
         {/* md  flag*/}
         <FontAwesomeIcon icon={faFlag} style={twi`dark:text-white`} />{" "}
@@ -117,7 +117,7 @@ export default function OkUserMenu({ style }) {
       </Link>
       <Link
         routeName=""
-        style={tw`border-b-2 border-gray-200 p-3 dark:text-white`}
+        style={tw`p-3 border-b-2 border-gray-200 dark:text-white`}
       >
         {/* md  cogs */}
         <FontAwesomeIcon icon={faCogs} style={twi`dark:text-white`} />{" "}
@@ -125,7 +125,7 @@ export default function OkUserMenu({ style }) {
       </Link>
       <Link
         routeName=""
-        style={tw`border-b-2 border-gray-200 p-3 dark:text-white`}
+        style={tw`p-3 border-b-2 border-gray-200 dark:text-white`}
       >
         {/* md  format-paint */}
         <FontAwesomeIcon icon={faPaintRoller} style={twi`dark:text-white`} />{" "}
@@ -133,7 +133,7 @@ export default function OkUserMenu({ style }) {
       </Link>
       <Link
         routeName=""
-        style={tw`border-b-2 border-gray-200 p-3 dark:text-white`}
+        style={tw`p-3 border-b-2 border-gray-200 dark:text-white`}
       >
         {/* md  help-circle */}
         <FontAwesomeIcon icon={faQuestionCircle} style={twi`dark:text-white`} />{" "}
@@ -141,7 +141,7 @@ export default function OkUserMenu({ style }) {
       </Link>
       <Link
         routeName=""
-        style={tw`border-b-2 border-gray-200 p-3 dark:text-white`}
+        style={tw`p-3 border-b-2 border-gray-200 dark:text-white`}
       >
         {/* md  link */}
         <FontAwesomeIcon icon={faLink} style={twi`dark:text-white`} />{" "}

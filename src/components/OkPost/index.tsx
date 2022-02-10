@@ -2,7 +2,7 @@ import { View, Text, Image, Pressable } from 'react-native'
 import FontAwesomeIcon from "~/component-lib/FontAwesomeIcon";
 import { faEllipsisV } from "@fortawesome/free-solid-svg-icons";
 import twi, { tw } from "~/lib/tailwind"
-import Card from "native-headless-ui/src/components/Card"
+import { Card } from "native-headless-ui"
 import OkPostHeader from "~/components/OkPost/components/OkPostHeader";
 import OkPostText from "~/components/OkPost/components/OkPostText";
 import OkPostMedia from "~/components/OkPost/components/OkPostMedia";
@@ -16,7 +16,7 @@ import { useTranslation } from 'react-i18next';
 export default function OkPost() {
     return (
         <Card style={tw`md:rounded-lg`}>
-            <View style={tw`flex-row justify-between items-center m-3`}>
+            <View style={tw`flex-row items-center justify-between m-3`}>
                 <View style={tw`flex-row`}>
                     <Image
                         source={{ uri: "https://picsum.photos/200" }}
