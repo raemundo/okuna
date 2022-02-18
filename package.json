@@ -94,7 +94,7 @@
     "next-transpile-modules": "^9.0.0",
     "postcss": "^8",
     "react-string-replace": "^0.4.4",
-    "sass": "^1.49.7",
+    "sass": "^1.49.8",
     "url-loader": "^4.1.1"
   },
   "husky": {
