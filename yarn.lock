@@ -96,28 +96,7 @@
     semver "^5.4.1"
     source-map "^0.5.0"
 
-"@babel/core@^7.0.0", "@babel/core@^7.1.0", "@babel/core@^7.1.6", "@babel/core@^7.11.1", "@babel/core@^7.12.10", "@babel/core@^7.12.3", "@babel/core@^7.14.0", "@babel/core@^7.17.5", "@babel/core@^7.7.5":
-  version "7.17.5"
-  resolved "https://registry.yarnpkg.com/@babel/core/-/core-7.17.5.tgz#6cd2e836058c28f06a4ca8ee7ed955bbf37c8225"
-  integrity sha512-/BBMw4EvjmyquN5O+t5eh0+YqB3XXJkYD2cjKpYtWOfFy4lQ4UozNSmxAcWT8r2XtZs0ewG+zrfsqeR15i1ajA==
-  dependencies:
-    "@ampproject/remapping" "^2.1.0"
-    "@babel/code-frame" "^7.16.7"
-    "@babel/generator" "^7.17.3"
-    "@babel/helper-compilation-targets" "^7.16.7"
-    "@babel/helper-module-transforms" "^7.16.7"
-    "@babel/helpers" "^7.17.2"
-    "@babel/parser" "^7.17.3"
-    "@babel/template" "^7.16.7"
-    "@babel/traverse" "^7.17.3"
-    "@babel/types" "^7.17.0"
-    convert-source-map "^1.7.0"
-    debug "^4.1.0"
-    gensync "^1.0.0-beta.2"
-    json5 "^2.1.2"
-    semver "^6.3.0"
-
-"@babel/core@^7.13.16":
+"@babel/core@^7.0.0", "@babel/core@^7.1.0", "@babel/core@^7.1.6", "@babel/core@^7.11.1", "@babel/core@^7.12.10", "@babel/core@^7.12.3", "@babel/core@^7.13.16", "@babel/core@^7.14.0", "@babel/core@^7.17.5", "@babel/core@^7.7.5":
   version "7.17.5"
   resolved "https://registry.yarnpkg.com/@babel/core/-/core-7.17.5.tgz#6cd2e836058c28f06a4ca8ee7ed955bbf37c8225"
   integrity sha512-/BBMw4EvjmyquN5O+t5eh0+YqB3XXJkYD2cjKpYtWOfFy4lQ4UozNSmxAcWT8r2XtZs0ewG+zrfsqeR15i1ajA==
@@ -15693,6 +15672,19 @@ react-native-web@0.17.5:
   version "0.17.5"
   resolved "https://registry.yarnpkg.com/react-native-web/-/react-native-web-0.17.5.tgz#2c27452b4654fb098c3c412cb04c379add1015a6"
   integrity sha512-pdieIZi2/YeVTaOuIaeaLC6FMkk8h3pvPNruedH+6cWiE15Oz6BGjJ+5IafdXEyiipb1Y0+QuecW81fa3DVM4g==
+  dependencies:
+    array-find-index "^1.0.2"
+    create-react-class "^15.7.0"
+    fbjs "^3.0.0"
+    hyphenate-style-name "^1.0.4"
+    inline-style-prefixer "^6.0.0"
+    normalize-css-color "^1.0.2"
+    prop-types "^15.6.0"
+
+react-native-web@0.17.6:
+  version "0.17.6"
+  resolved "https://registry.yarnpkg.com/react-native-web/-/react-native-web-0.17.6.tgz#67805f7e009691a7f59a8513b451fcf16a6803d6"
+  integrity sha512-upVbcb7XKDRKFDMQCFqjYHyX/WKv7TZeWqPyrumcWqkS0tIR5xfSdF7RDXtqhmSG3RSxd5kob5n2pNZ0Mmr7Gg==
   dependencies:
     array-find-index "^1.0.2"
     create-react-class "^15.7.0"
