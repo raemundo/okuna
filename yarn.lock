@@ -13678,10 +13678,10 @@ nanomatch@^1.2.9:
     snapdragon "^0.8.1"
     to-regex "^3.0.1"
 
-native-headless-ui@^0.0.2:
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/native-headless-ui/-/native-headless-ui-0.0.2.tgz#ec97aa44c5f6bf822f99ca65ca34b8e9aa200683"
-  integrity sha512-LWcq9YPnvUGUMfwAyvpXU1sCckbSTQSLdCK507tnIEIsBJDzj+2DWWHDwUa00rhXagSBpT3HZFNhIPCy7DtfDg==
+native-headless-ui@^0.0.6:
+  version "0.0.6"
+  resolved "https://registry.yarnpkg.com/native-headless-ui/-/native-headless-ui-0.0.6.tgz#8e927d956282aeeca902e4eea1e122e119fc5484"
+  integrity sha512-lm6yTJUy/AYG0IXJBYt6ZskgPQEZzzuxLORzRop45HwiDvrMJrrsE8Mj78sIbhG02pvAyKPDUnfGv4+Cfd3ykg==
   dependencies:
     expo-linear-gradient "^11.0.3"
     next "12.0.10"
