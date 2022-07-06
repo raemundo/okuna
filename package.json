@@ -51,7 +51,7 @@
     "next-rn": "0.0.20",
     "react": "17.0.2",
     "react-dom": "17.0.2",
-    "react-i18next": "^11.15.4",
+    "react-i18next": "^11.18.0",
     "react-native": "0.67.3",
     "react-native-gesture-handler": "~2.2.0",
     "react-native-safe-area-context": "3.4.1",
