@@ -88,7 +88,7 @@
     "cz-conventional-changelog": "^3.3.0",
     "emoji-unicode": "^2.0.1",
     "file-loader": "^6.2.0",
-    "fs-extra": "^10.0.0",
+    "fs-extra": "^11.0.0",
     "husky": "^7.0.4",
     "next-compose-plugins": "^2.2.1",
     "next-transpile-modules": "^9.0.0",
